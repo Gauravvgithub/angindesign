@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import ReactPlayer from 'react-player';
 
-var bgimg1 = require('./../../images/video-bg.jpg');
+// var bgimg1 = require('./../../images/video-bg.jpg');
 
 class About3 extends React.Component {
     render() {
