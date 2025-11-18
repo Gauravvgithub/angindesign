@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import axios from "axios";
-import Loader from "../Elements/Loader";
-
 
 const bgimg1 = require("./../../images/background/cross-line.png");
-const bnrimg = require("./../../images/banner/15.jpg");
 
 const categoryMap = {
   residential: "cat-1",
@@ -81,8 +78,6 @@ const Projects1 = () => {
 
   return (
     <>
-
-
       <div className="page-content">
         <div className="section-full p-tb80 column-grid-4 inner-page-padding">
           <div className="container">
@@ -218,9 +213,7 @@ const Projects1 = () => {
                   );
                 })
               ) : (
-                <p className="text-center w-100">
-                  Loading projects...
-                </p>
+                <p className="text-center w-100">Loading projects...</p>
               )}
             </ul>
 
@@ -254,7 +247,6 @@ const Projects1 = () => {
           </div>
         </div>
       </div>
-
     </>
   );
 };

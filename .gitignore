@@ -52,4 +52,5 @@ pnpm-lock.yaml
 .env.*.local
 
 dist
+dist/
 

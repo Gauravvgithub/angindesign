@@ -48,7 +48,7 @@ const achievements2 = [
     },
     {
         title: 'Asia Creative Competition',
-        description: 'Give your consent, we design a perfect bend choose the style, we complete with our file',
+        description: 'Give youradf consent, we design a perfect bend choose the style, we complete with our file',
         date: '19',
         month: 'July',
         year: '2017',
