@@ -20,7 +20,7 @@ import React from 'react';
 import { Helmet } from "react-helmet-async";
 import Components from './components/Components';
 import ScrolToTop from './components/Elements/ScrolToTop';
-import Loader from "./components/Elements/Loader";
+// import Loader from "./components/Elements/Loader";
 
 const App = () => {
   return (
@@ -33,7 +33,7 @@ const App = () => {
 
       <Components />
       <ScrolToTop />
-      <Loader />
+      {/* <Loader /> */}
     </div>
   );
 }
