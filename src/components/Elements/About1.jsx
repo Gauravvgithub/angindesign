@@ -26,35 +26,8 @@ class About1 extends React.Component {
       nav: true,
       dots: true,
       navText: [
-        `
-  <svg width="30" height="30" viewBox="0 0 40 40" 
-       style="display:flex;align-items:center;justify-content:center;"
-       xmlns="http://www.w3.org/2000/svg">
-
-    <!-- Left Arrow (Bold + Centered) -->
-    <path d="M22 10 L12 20 L22 30"
-          stroke="black"
-          stroke-width="3.5"
-          fill="none"
-          stroke-linecap="round"
-          stroke-linejoin="round" />
-  </svg>
-  `,
-
-        `
-  <svg width="30" height="30" viewBox="0 0 40 40" 
-       style="display:flex;align-items:center;justify-content:center;"
-       xmlns="http://www.w3.org/2000/svg">
-
-    <!-- Right Arrow (Bold + Centered) -->
-    <path d="M18 10 L28 20 L18 30"
-          stroke="black"
-          stroke-width="3.5"
-          fill="none"
-          stroke-linecap="round"
-          stroke-linejoin="round" />
-  </svg>
-  `,
+        '<i class="fa fa-angle-left"></i>',
+        '<i class="fa fa-angle-right"></i>',
       ],
       responsive: {
         0: { items: 1 },
@@ -124,9 +97,9 @@ class About1 extends React.Component {
                     {...options}
                   >
                     {images.map((item, index) => (
-                      <div className="item" key={index}>
+                      <div className="item" key={index} >
                         <div className="sx-img-effect zoom-slow">
-                          <NavLink to="/about">
+                          <NavLink to="/about" >
                             <img src={item} alt="" />
                           </NavLink>
                         </div>
