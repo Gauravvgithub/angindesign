@@ -46,7 +46,7 @@ const ProjectGrid5 = () => {
           `${import.meta.env.VITE_API_URL}/service?page=${page}&limit=${limit}`
         );
 
-        console.log("", res.data);
+        // console.log("", res.data);
 
         if (Array.isArray(res.data.data)) {
           setServices(res.data.data);

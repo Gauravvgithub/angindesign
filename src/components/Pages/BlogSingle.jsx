@@ -105,8 +105,8 @@ const BlogSingle = () => {
       <div className="page-content">
         <Banner
           title={blog.blog_title}
-          pagename="Blog Single"
-          description="The essence of interior design will always be about people and how they live."
+          pagename="Blog Details"
+          description={seo.metaDes}
           bgimage={blog.banner || require("./../../images/banner/10.jpg")}
         />
 

@@ -4,7 +4,7 @@ import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 import GoogleMapReact from 'google-map-react';
 
-var bnrimg = require('./../../images/banner/9.jpg');
+var bnrimg = require('./../../images/banner/18.jpg');
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -21,7 +21,7 @@ class ContactUs extends React.Component {
             <>
                 <Header />
                 <div className="page-content">
-                    <Banner title="Contact Us Form" pagename="Contact us" description="The essence of interior design will always be about people and how they live. It is about the realities of what makes for an attractive, civilized." bgimage={bnrimg}/>
+                    <Banner title="Contact Us" pagename="Contact us" description="The essence of interior design will always be about people and how they live. It is about the realities of what makes for an attractive, civilized." bgimage={bnrimg}/>
                     {/* SECTION CONTENTG START */}
                     <div className="section-full p-tb80 inner-page-padding">
                         {/* LOCATION BLOCK*/}

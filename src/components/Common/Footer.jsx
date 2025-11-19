@@ -171,7 +171,7 @@ class Footer extends React.Component {
                     <h5 className="widget-title">Contact Us</h5>
                     <ul className="widget_address">
                       <li>
-                        756 Livingston Street, Brooklyn, NY 11201, United State
+                        Dwarka Delhi, India - 110075
                       </li>
                       <li>Info@angindesign.com</li>
                       <li>+91 7530919656</li>

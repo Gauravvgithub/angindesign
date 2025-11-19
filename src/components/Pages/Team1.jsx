@@ -47,7 +47,7 @@ const teamMembers = [
     }
 ]
 
-var bnrimg = require('./../../images/banner/3.jpg');
+var bnrimg = require('./../../images/banner/16.jpg');
 
 class Team1 extends React.Component {
     render() {
