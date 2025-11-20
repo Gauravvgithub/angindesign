@@ -8,7 +8,6 @@
 //   },
 // });
 
-
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import commonjs from 'vite-plugin-commonjs'
@@ -16,12 +15,17 @@ import commonjs from 'vite-plugin-commonjs'
 export default defineConfig({
   plugins: [
     react(),
-    commonjs() 
+    commonjs()
   ],
-   server: {
+  server: {
     port: 9630,
   },
   optimizeDeps: {
     include: ['react', 'react-dom'],
   },
+  esbuild: {
+    logOverride: {
+      "css-syntax-error": "silent"
+    }
+  }
 })
