@@ -14,9 +14,9 @@ class Residential extends React.Component {
         <Header />
         <div className="page-content">
           <Banner
-            title="Service Details"
-            pagename="Service Detail"
-            description="The essence of interior design will always be about people and how they live. It is about the realities of what makes for an attractive, civilized."
+            title="Residential Interior Design"
+            pagename="Residential Interior Design"
+            description="We deliver innovative residential interior designs that are tailored to your lifestyle and preferences."
             bgimage={bnrimg}
           />
           {/* SECTION CONTENT START */}
@@ -30,7 +30,9 @@ class Residential extends React.Component {
                       <h4 className="widget-title">More Services</h4>
                       <ul className="bg-white">
                         <li>
-                          <NavLink to={"/services-1"}>Architedfasfcture</NavLink>
+                          <NavLink to={"/services-1"}>
+                            Architedfasfcture
+                          </NavLink>
                         </li>
                         <li>
                           <NavLink to={"/services-1"}>Interior</NavLink>
@@ -101,18 +103,20 @@ class Residential extends React.Component {
                           alt=""
                         />
                       </div>
-                      <h3 className="m-t30 sx-tilte">
-                        Interior design, a fine line with more shine a design
-                        gives you.
-                      </h3>
+                      <h1
+                        className="m-t30 sx-tilte"
+                        style={{ fontSize: "38px" }}
+                      >
+                        Residential Interior Designer in Delhi
+                      </h1>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex
-                        ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquam incidunt voluptates aut amet explicabo, animi
+                        ullam rerum voluptate nostrum in maxime corporis
+                        deserunt accusamus veritatis cum illo repellat est
+                        provident commodi neque nam sequi? Nemo ducimus harum
+                        nobis quisquam qui rem, voluptatum, odio assumenda
+                        accusamus, porro tempora suscipit ex molestias?
                       </p>
                       <p>
                         Excepteur sint occaecat cupidatat non proident, sunt in
@@ -293,52 +297,6 @@ class Residential extends React.Component {
                               essentially unchanged. It was popularised sheets
                               containing Lorem Ipsum passagese.
                             </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="row">
-                      <div className="col-md-6 m-b30">
-                        <div className="sx-icon-box-wraper p-a30  center bg-white shadow">
-                          <div className="sx-icon-box-lg inline-icon text-primary  m-b20 radius bg-secondry  scale-in-center">
-                            <span className="icon-cell sx-text-primary">
-                              <i className="flaticon-door" />
-                            </span>
-                          </div>
-                          <div className="icon-content">
-                            <h4 className="sx-tilte">Decoration</h4>
-                            <p>
-                              Lorem Ipsum is simply dummy text of the printing
-                              and setting as Planning.
-                            </p>
-                            <NavLink
-                              to={"/services-1"}
-                              className="site-button-link"
-                            >
-                              Read More
-                            </NavLink>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-md-6 m-b30">
-                        <div className="sx-icon-box-wraper p-a30  center bg-white shadow">
-                          <div className="sx-icon-box-lg inline-icon text-primary  m-b20 radius bg-secondry  scale-in-center">
-                            <span className="icon-cell sx-text-primary">
-                              <i className="flaticon-ruler-1" />
-                            </span>
-                          </div>
-                          <div className="icon-content">
-                            <h4 className="sx-tilte">Solution</h4>
-                            <p>
-                              Lorem Ipsum is simply dummy text of the printing
-                              and setting as Planning.
-                            </p>
-                            <NavLink
-                              to={"/services-1"}
-                              className="site-button-link"
-                            >
-                              Read More
-                            </NavLink>
                           </div>
                         </div>
                       </div>

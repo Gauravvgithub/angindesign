@@ -48,12 +48,12 @@ class Header extends React.Component {
           <div className="top-bar bg-gray">
             <div className="container">
               <div className="d-flex justify-content-end">
-                <ul class="list-unstyled e-p-bx">
+                <ul className="list-unstyled e-p-bx">
                   <li>
                     <span>Mail us:</span>
                     <a
                       href="mailto:Info@angindesign.com"
-                      class="text-decoration-none text-primary ms-1"
+                      className="text-decoration-none text-primary ms-1"
                     >
                       Info@angindesign.com
                     </a>
@@ -62,7 +62,7 @@ class Header extends React.Component {
                     <span>Call us:</span>
                     <a
                       href="tel:+917530919656"
-                      class="text-decoration-none text-primary ms-1"
+                      className="text-decoration-none text-primary ms-1"
                     >
                       (+91) 75309 19656
                     </a>

@@ -297,52 +297,6 @@ class Bar extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <div className="row">
-                      <div className="col-md-6 m-b30">
-                        <div className="sx-icon-box-wraper p-a30  center bg-white shadow">
-                          <div className="sx-icon-box-lg inline-icon text-primary  m-b20 radius bg-secondry  scale-in-center">
-                            <span className="icon-cell sx-text-primary">
-                              <i className="flaticon-door" />
-                            </span>
-                          </div>
-                          <div className="icon-content">
-                            <h4 className="sx-tilte">Decoration</h4>
-                            <p>
-                              Lorem Ipsum is simply dummy text of the printing
-                              and setting as Planning.
-                            </p>
-                            <NavLink
-                              to={"/services-1"}
-                              className="site-button-link"
-                            >
-                              Read More
-                            </NavLink>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-md-6 m-b30">
-                        <div className="sx-icon-box-wraper p-a30  center bg-white shadow">
-                          <div className="sx-icon-box-lg inline-icon text-primary  m-b20 radius bg-secondry  scale-in-center">
-                            <span className="icon-cell sx-text-primary">
-                              <i className="flaticon-ruler-1" />
-                            </span>
-                          </div>
-                          <div className="icon-content">
-                            <h4 className="sx-tilte">Solution</h4>
-                            <p>
-                              Lorem Ipsum is simply dummy text of the printing
-                              and setting as Planning.
-                            </p>
-                            <NavLink
-                              to={"/services-1"}
-                              className="site-button-link"
-                            >
-                              Read More
-                            </NavLink>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
