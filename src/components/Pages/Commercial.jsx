@@ -5,18 +5,20 @@ import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
 
-var bnrimg = require("./../../images/banner/4.jpg");
+var bnrimg = require("./../../images/services/residential/banner.webp");
+var bgimg1 = require("./../../images/services/residential/bg1.webp");
+var bgimg2 = require("./../../images/services/residential/bg2.webp");
 
-class Commercial extends React.Component {
+class Residential extends React.Component {
   render() {
     return (
       <>
         <Header />
         <div className="page-content">
           <Banner
-            title="Service Details"
-            pagename="Service Detail"
-            description="The essence of interior design will always be about people and how they live. It is about the realities of what makes for an attractive, civilized."
+            title="Commercial Interior Design"
+            pagename="Commercial Interior Design"
+            description="We deliver innovative commercial interior designs that are tailored to your business needs and preferences."
             bgimage={bnrimg}
           />
           {/* SECTION CONTENT START */}
@@ -30,26 +32,31 @@ class Commercial extends React.Component {
                       <h4 className="widget-title">More Services</h4>
                       <ul className="bg-white">
                         <li>
-                          <NavLink to={"/services-1"}>Architedfasfcture</NavLink>
+                          <NavLink to={"/services/residential"}>
+                            Residential
+                          </NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services-1"}>Interior</NavLink>
+                          <NavLink to={"/services/office"}>Office</NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services-1"}>Decoration</NavLink>
+                          <NavLink to={"/services/restaurant"}>Restaurant</NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services-1"}>Furniture</NavLink>
+                          <NavLink to={"/services/salon"}>Salon</NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services-1"}>Floor Plan</NavLink>
+                          <NavLink to={"/services/bar"}>Bar</NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services-1"}>Exterior</NavLink>
+                          <NavLink to={"/services/consultancy"}>Consultancy</NavLink>
+                        </li>
+                        <li>
+                          <NavLink to={"/services/modular-wooden-work"}>Modular Wooden Work</NavLink>
                         </li>
                       </ul>
                     </div>
-                    <div className="wt-icon-box-wraper left bg-white p-a15 m-b10">
+                    {/* <div className="wt-icon-box-wraper left bg-white p-a15 m-b10">
                       <NavLink to={"/services-1"} className="btn-block">
                         <span className="text-black m-r10">
                           <i className="fa fa-file-pdf-o" />
@@ -79,7 +86,7 @@ class Commercial extends React.Component {
                           Download .PPT
                         </strong>
                       </NavLink>
-                    </div>
+                    </div> 
                     <div className="about4-content m-t30">
                       <h4>GET 10% OFF TODAY</h4>
                       <p>
@@ -89,7 +96,7 @@ class Commercial extends React.Component {
                       <NavLink to={"/services-1"} className="site-button-link">
                         Read More
                       </NavLink>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="col-lg-8 col-md-12">
@@ -97,62 +104,102 @@ class Commercial extends React.Component {
                     <div className="service-single-block m-b30">
                       <div className="sx-media">
                         <img
-                          src={require("./../../images/gallery/pic5.jpg")}
+                          src={bgimg2}
                           alt=""
                         />
                       </div>
-                      <h3 className="m-t30 sx-tilte">
-                        Interior design, a fine line with more shine a design
-                        gives you.
-                      </h3>
+                      <h1
+                        className="m-t30 sx-tilte"
+                        style={{ fontSize: "38px" }}
+                      >
+                        Residential Interior Designer in Delhi
+                      </h1>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex
-                        ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur.
+                        Every house has its heartbeat. It's where you unwind
+                        after a long day, celebrate small wins, make memories,
+                        and be yourself. That's why designing a home isn't just
+                        about picking out furniture or colors; it's also about
+                        making a space that feels warm, comfortable, and
+                        important.
                       </p>
                       <p>
-                        Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
-                        Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudantium, totam rem
-                        aperiam, eaque ipsa quae ab illo inventore veritatis et
-                        quasi.
+                        At Angin Design, our{" "}
+                        <b>
+                          {" "}
+                          residential interior design services in Delhi, NCR{" "}
+                        </b>
+                        revolve around one simple idea:{" "}
+                        <b>
+                          {" "}
+                          Your home should make you feel at ease the moment you
+                          walk in.{" "}
+                        </b>{" "}
+                        <br />
+                        We hear you, learn about your life, and notice what
+                        matters to you. Then we design a home that fits
+                        naturally into your daily life. No complications, no
+                        fancy jargon, just honest, thoughtful design.
                       </p>
+
+                      <div className="service-single-block m-b30">
+                        <h2
+                          className="m-t30 sx-tilte"
+                          style={{ fontSize: "32px" }}
+                        >
+                          A Home Designed Around You
+                        </h2>
+                        <p>
+                          Everyone has their style when it comes to the inside
+                          of their home. Some people like spaces that are clean
+                          and peaceful, while others like spaces that are
+                          colorful, patterned, and somewhat dramatic. Some
+                          people like luxury, some like simplicity, and some
+                          like a mix of the two.
+                        </p>
+                        <p>
+                          It's not our job to make you follow a certain design
+                          style; it's our job to figure out what makes you feel
+                          good.
+                        </p>
+                        <p>
+                          We talk to you about your daily life, goals, dislikes,
+                          and inspirations. Then we slowly create a space that
+                          feels like an extension of who you are.
+                        </p>
+                        <p>
+                          <i>
+                            "No need to hurry or feel rushed; just work
+                            together."
+                          </i>
+                        </p>
+                      </div>
                       <h4 className="m-t30 sx-tilte">
-                        Professional Interior Design Service
+                        Why People Have Faith in Us
                       </h4>
                       <div className="single-service-list">
                         <div className="row">
                           <div className="col-lg-6 col-md-12">
                             <ul className="list-angle-right anchor-line">
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  We provide high quality design services.
+                                <NavLink>
+                                  We take the time to learn about how you live.
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  We are confident about our projects.
+                                <NavLink>
+                                  We are honest and clear when we talk to each
+                                  other.
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  A good Work Environment For work
+                                <NavLink>
+                                  We design from the heart, not the head.
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  Communication Skills to getting in touch
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink to={"/services-1"}>
-                                  {" "}
-                                  Renovations Benefit of Service
+                                <NavLink>
+                                  We don't just offer quick fixes; we offer real
+                                  solutions.
                                 </NavLink>
                               </li>
                             </ul>
@@ -160,29 +207,21 @@ class Commercial extends React.Component {
                           <div className="col-lg-6 col-md-12">
                             <ul className="list-angle-right anchor-line">
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  Sustainability and modern tech.
+                                <NavLink>
+                                  We have more than 20 years of experience on
+                                  every project.
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  A Career Overview opportunity Available
+                                <NavLink>
+                                  We care about comfort, beauty, and usefulness
+                                  over time.
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  Scientific Skills For getting a better result
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink to={"/services-1"}>
+                                <NavLink>
                                   {" "}
-                                  Historic Renovations and Restorations.
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink to={"/services-1"}>
-                                  Project on time and Latest Design
+                                  We stick to our budgets and deadlines.
                                 </NavLink>
                               </li>
                             </ul>
@@ -192,10 +231,10 @@ class Commercial extends React.Component {
                       <div className="sx-media sx-img-effect zoom-slow">
                         <div className="sx-thum-bx sx-img-overlay1 sx-img-effect yt-thum-box">
                           <img
-                            src="https://img.youtube.com/vi/Oy2QIiSQT2U/0.jpg"
+                            src={bgimg1}
                             alt=""
                           />
-                          <NavLink
+                          {/* <NavLink
                             to={"#"}
                             className="play-now"
                             data-toggle="modal"
@@ -203,7 +242,7 @@ class Commercial extends React.Component {
                           >
                             <i className="icon fa fa-play" />
                             <span className="ripple" />
-                          </NavLink>
+                          </NavLink> */}
                         </div>
                       </div>
                     </div>
@@ -219,7 +258,8 @@ class Commercial extends React.Component {
                               href="#collapseOne5"
                               data-parent="#accordion5"
                             >
-                              Choose between rates or instant payment
+                              What services do you offer for designing the
+                              interiors of homes?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -233,12 +273,11 @@ class Commercial extends React.Component {
                           <div className="acod-content p-a15">
                             <p>
                               {" "}
-                              Motivate others and change the way we feel about
-                              ourselves. This is why I find them so interesting
-                              and crucial on our paths to success mauris
-                              accumsan eros eget libero posuere vulputate. Etiam
-                              elit elit, elementum sed varius at, adipiscing
-                              vitae est. Sed nec felis pellentesque.
+                              We can help you plan, design, and decorate your
+                              home with 3D visuals, furniture design, modular
+                              kitchens, wardrobes, lighting, materials, and
+                              more. We handle everything so you don't have to
+                              deal with many different people.
                             </p>
                           </div>
                         </div>
@@ -252,7 +291,8 @@ class Commercial extends React.Component {
                               className="collapsed"
                               data-parent="#accordion5"
                             >
-                              Come to see a live preview
+                              Could you please let me know the typical duration
+                              for completing a project inside a house?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -262,10 +302,10 @@ class Commercial extends React.Component {
                         <div id="collapseTwo5" className="acod-body collapse">
                           <div className="acod-content p-a15">
                             <p>
-                              Inspirational quotes have an amazing ability to
-                              motivate others and change the way we feel about
-                              ourselves. This is why I find them so interesting
-                              and crucial on our paths to success.
+                              It depends on how big your house is. It could take
+                              a few weeks for one room and a few months for the
+                              whole house. But don't worry, we make a clear plan
+                              at the beginning and stick to it.
                             </p>
                           </div>
                         </div>
@@ -279,7 +319,7 @@ class Commercial extends React.Component {
                               className="collapsed"
                               data-parent="#accordion5"
                             >
-                              Choose the correct service
+                              Am I able to pick my own materials and finishes?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -289,9 +329,92 @@ class Commercial extends React.Component {
                         <div id="collapseThree5" className="acod-body collapse">
                           <div className="acod-content p-a15">
                             <p>
-                              The leap into electronic typesetting, remaining
-                              essentially unchanged. It was popularised sheets
-                              containing Lorem Ipsum passagese.
+                              Yes, of course! You should pick what you love
+                              because it's your home. We give you choices,
+                              compare the quality of different options, and
+                              provide suggestions, but you always make the final
+                              choice.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="panel sx-panel">
+                        <div className="acod-head">
+                          <h6 className="acod-title">
+                            <a
+                              data-toggle="collapse"
+                              href="#collapseFour5"
+                              className="collapsed"
+                              data-parent="#accordion5"
+                            >
+                              What if I don't know what my style is?
+                              <span className="indicator">
+                                <i className="fa" />
+                              </span>
+                            </a>
+                          </h6>
+                        </div>
+                        <div id="collapseFour5" className="acod-body collapse">
+                          <div className="acod-content p-a15">
+                            <p>
+                              Don't worry; most people don't. We help you find
+                              your style by showing you examples, themes, and
+                              ideas until something "clicks" for you. It's a fun
+                              and easy process.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="panel sx-panel">
+                        <div className="acod-head">
+                          <h6 className="acod-title">
+                            <a
+                              data-toggle="collapse"
+                              href="#collapseFive5"
+                              className="collapsed"
+                              data-parent="#accordion5"
+                            >
+                              Do you have designs for people with different
+                              budgets?
+                              <span className="indicator">
+                                <i className="fa" />
+                              </span>
+                            </a>
+                          </h6>
+                        </div>
+                        <div id="collapseFive5" className="acod-body collapse">
+                          <div className="acod-content p-a15">
+                            <p>
+                              Yes, for sure. We work with a wide range of
+                              budgets and give you real choices that don't
+                              sacrifice beauty or comfort.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="panel sx-panel">
+                        <div className="acod-head">
+                          <h6 className="acod-title">
+                            <a
+                              data-toggle="collapse"
+                              href="#collapseSix5"
+                              className="collapsed"
+                              data-parent="#accordion5"
+                            >
+                              Do you offer services outside of your country?
+                              <span className="indicator">
+                                <i className="fa" />
+                              </span>
+                            </a>
+                          </h6>
+                        </div>
+                        <div id="collapseSix5" className="acod-body collapse">
+                          <div className="acod-content p-a15">
+                            <p>
+                              Yes, sir. We assist clients worldwide by
+                              facilitating online conversations and providing
+                              them with comprehensive design plans that are
+                              adaptable to any location.
                             </p>
                           </div>
                         </div>
@@ -319,4 +442,4 @@ class Commercial extends React.Component {
   }
 }
 
-export default Commercial;
+export default Residential;
