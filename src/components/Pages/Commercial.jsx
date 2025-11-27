@@ -5,11 +5,11 @@ import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
 
-var bnrimg = require("./../../images/services/residential/banner.webp");
-var bgimg1 = require("./../../images/services/residential/bg1.webp");
-var bgimg2 = require("./../../images/services/residential/bg2.webp");
+var bnrimg = require("./../../images/services/commercial/banner.webp");
+var bgimg1 = require("./../../images/services/commercial/bg1.webp");
+var bgimg2 = require("./../../images/services/commercial/bg2.webp");
 
-class Residential extends React.Component {
+class Commercial extends React.Component {
   render() {
     return (
       <>
@@ -18,7 +18,7 @@ class Residential extends React.Component {
           <Banner
             title="Commercial Interior Design"
             pagename="Commercial Interior Design"
-            description="We deliver innovative commercial interior designs that are tailored to your business needs and preferences."
+            description="We provide innovative commercial interior design solutions tailored to your business needs."
             bgimage={bnrimg}
           />
           {/* SECTION CONTENT START */}
@@ -26,7 +26,16 @@ class Residential extends React.Component {
             <div className="container">
               {/* GALLERY CONTENT START */}
               <div className="row">
-                <div className="col-lg-4 col-md-12 sticky_column">
+                <div
+                  className="col-lg-4 col-md-12"
+                  style={{
+                    position: "sticky",
+                    top: "120px",
+                    alignSelf: "flex-start",
+                    height: "fit-content",
+                    zIndex: 5,
+                  }}
+                >
                   <div className="about4-section m-b20 bg-gray p-a20">
                     <div className="widget widget_services">
                       <h4 className="widget-title">More Services</h4>
@@ -40,7 +49,9 @@ class Residential extends React.Component {
                           <NavLink to={"/services/office"}>Office</NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services/restaurant"}>Restaurant</NavLink>
+                          <NavLink to={"/services/restaurant"}>
+                            Restaurant
+                          </NavLink>
                         </li>
                         <li>
                           <NavLink to={"/services/salon"}>Salon</NavLink>
@@ -49,10 +60,14 @@ class Residential extends React.Component {
                           <NavLink to={"/services/bar"}>Bar</NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services/consultancy"}>Consultancy</NavLink>
+                          <NavLink to={"/services/consultancy"}>
+                            Consultancy
+                          </NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services/modular-wooden-work"}>Modular Wooden Work</NavLink>
+                          <NavLink to={"/services/modular-wooden-work"}>
+                            Modular Wooden Work
+                          </NavLink>
                         </li>
                       </ul>
                     </div>
@@ -103,42 +118,39 @@ class Residential extends React.Component {
                   <div className="section-content">
                     <div className="service-single-block m-b30">
                       <div className="sx-media">
-                        <img
-                          src={bgimg2}
-                          alt=""
-                        />
+                        <img src={bgimg2} alt="" />
                       </div>
                       <h1
                         className="m-t30 sx-tilte"
                         style={{ fontSize: "38px" }}
                       >
-                        Residential Interior Designer in Delhi
+                        Commercial Interior Design Services in Delhi, NCR
                       </h1>
                       <p>
-                        Every house has its heartbeat. It's where you unwind
-                        after a long day, celebrate small wins, make memories,
-                        and be yourself. That's why designing a home isn't just
-                        about picking out furniture or colors; it's also about
-                        making a space that feels warm, comfortable, and
-                        important.
+                        It's not easy to run a business. You deal with
+                        everything at once: customers, employees, duties, and
+                        deadlines. Even though the design of your workspace is
+                        very important to how people feel when they walk in, it
+                        often gets overlooked in the middle of all this.
                       </p>
                       <p>
-                        At Angin Design, our{" "}
+                        Our <b> commercial interior design services </b>at{" "}
+                        <b>Ang InDesign</b> are all about making your business
+                        look Design are all about making your business look
+                        professional, trustworthy, and welcoming without being
+                        too complicated or overwhelming. We know that a business
+                        space needs to look nice, but it also needs to work well
+                        every day.
+                      </p>
+                      <p>
+                        We have a simple goal: &nbsp;
                         <b>
-                          {" "}
-                          residential interior design services in Delhi, NCR{" "}
+                          <i>
+                            To create a space that helps your business grow,
+                            keeps your customers happy, and keeps your team
+                            motivated.
+                          </i>
                         </b>
-                        revolve around one simple idea:{" "}
-                        <b>
-                          {" "}
-                          Your home should make you feel at ease the moment you
-                          walk in.{" "}
-                        </b>{" "}
-                        <br />
-                        We hear you, learn about your life, and notice what
-                        matters to you. Then we design a home that fits
-                        naturally into your daily life. No complications, no
-                        fancy jargon, just honest, thoughtful design.
                       </p>
 
                       <div className="service-single-block m-b30">
@@ -146,43 +158,376 @@ class Residential extends React.Component {
                           className="m-t30 sx-tilte"
                           style={{ fontSize: "32px" }}
                         >
-                          A Home Designed Around You
+                          Design That Understands Your Business, Not Just Your
+                          Floor Plan
                         </h2>
                         <p>
-                          Everyone has their style when it comes to the inside
-                          of their home. Some people like spaces that are clean
-                          and peaceful, while others like spaces that are
-                          colorful, patterned, and somewhat dramatic. Some
-                          people like luxury, some like simplicity, and some
-                          like a mix of the two.
+                          There is no one-size-fits-all for businesses. Display
+                          areas that catch people's attention are important for
+                          a store. An office needs to be a calm and productive
+                          place. A restaurant needs to have the right mood and
+                          flow. A clinic needs to be clean, trustworthy, and
+                          comfortable.
                         </p>
+                        <p>This is why we don't just follow trends.</p>
                         <p>
-                          It's not our job to make you follow a certain design
-                          style; it's our job to figure out what makes you feel
-                          good.
-                        </p>
-                        <p>
-                          We talk to you about your daily life, goals, dislikes,
-                          and inspirations. Then we slowly create a space that
-                          feels like an extension of who you are.
+                          <ul className="list-angle-right anchor-line">
+                            We design based on what your business needs:
+                            <li>
+                              <NavLink>
+                                What types of customers do you work with?
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink>
+                                What kind of brand identity do you want to get
+                                across?
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink>
+                                How your employees do their jobs?
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink>
+                                How your space works during the day?
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink>
+                                What are your time and money limits?
+                              </NavLink>
+                            </li>
+                          </ul>
                         </p>
                         <p>
                           <i>
-                            "No need to hurry or feel rushed; just work
-                            together."
+                            "It's not enough for a business to look good; it
+                            also needs to be easy to run."
                           </i>
                         </p>
                       </div>
-                      <h4 className="m-t30 sx-tilte">
-                        Why People Have Faith in Us
-                      </h4>
+
+                      <div className="service-single-block m-b30">
+                        <h2
+                          className="m-t30 sx-tilte"
+                          style={{ fontSize: "32px" }}
+                        >
+                          Our Commercial Interior Design Services Include
+                        </h2>
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            - Office Interior Design
+                          </h3>
+                          <p>
+                            An office should feel like a place where ideas come
+                            and go easily.
+                          </p>
+                          <p>
+                            We make work environments that lower stress, help
+                            people stay focused, and make your team feel
+                            important.
+                          </p>
+                          <p>
+                            <ul className="list-angle-right anchor-line">
+                              <li>
+                                <NavLink>
+                                  Layouts that are good for your health
+                                </NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Planning smart spaces</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Comfortable workstations</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>
+                                  Meeting rooms that get people thinking
+                                </NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Quiet areas for breaks</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>
+                                  Branding elements that make you look
+                                  professional
+                                </NavLink>
+                              </li>
+                            </ul>
+                          </p>
+                          <p>
+                            A well-designed office not only looks good, but it
+                            also helps people get more done.
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            - Retail Store Interior Design
+                          </h3>
+                          <p>First impressions are very important in retail.</p>
+                          <p>
+                            When customers walk in, they should feel like they
+                            are connected to your brand right away.
+                          </p>
+                          <p>
+                            <ul className="list-angle-right anchor-line">
+                              We create stores that make shopping fun and hard
+                              to resist:
+                              <li>
+                                <NavLink>
+                                  Areas for displaying products that look good
+                                </NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Smooth flow of customers</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>
+                                  Lighting that makes the best stand out
+                                </NavLink>
+                              </li>
+                              <li>
+                                <NavLink>
+                                  Layouts that are clean and modern
+                                </NavLink>
+                              </li>
+                              <li>
+                                <NavLink>
+                                  Colours and textures that are consistent with
+                                  the brand
+                                </NavLink>
+                              </li>
+                            </ul>
+                          </p>
+                          <p>
+                            Good design brings in more customers, makes them
+                            more likely to buy, and makes their experience
+                            better.
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            - Restaurant & Café Interior Design
+                          </h3>
+                          <p>
+                            The atmosphere is just as important as the food at a
+                            restaurant.
+                          </p>
+                          <p>
+                            The right lighting, seating arrangement, and visual
+                            story can make people who just stop by become
+                            regular customers.
+                          </p>
+                          <p>
+                            <ul className="list-angle-right anchor-line">
+                              We make restaurants and cafes that are cosy,
+                              memorable, and great for Instagram:
+                              <li>
+                                <NavLink>
+                                  Comfortable seating arrangements
+                                </NavLink>
+                              </li>
+                              <li>
+                                <NavLink>
+                                  Lighting that makes you feel welcome
+                                </NavLink>
+                              </li>
+                              <li>
+                                <NavLink>
+                                  Interiors that change with your mood
+                                </NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Layouts for clean kitchens</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>
+                                  Branding corners that look good
+                                </NavLink>
+                              </li>
+                            </ul>
+                          </p>
+                          <p>
+                            People should want to come back to your space over
+                            and over again.
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            - Clinic & Healthcare Interior Design
+                          </h3>
+                          <p>
+                            It should feel safe to go to a clinic. Neat. Simple
+                            to get around.
+                          </p>
+                          <p>
+                            Patients often come in feeling anxious, and design
+                            can help calm them down.
+                          </p>
+                          <p>
+                            <ul className="list-angle-right anchor-line">
+                              We make healthcare spaces that look professional
+                              but also feel cosy:
+                              <li>
+                                <NavLink>Well-organised layouts</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>
+                                  Colours that make you feel calm
+                                </NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Clean materials</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Waiting in comfortable areas</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Lighting that calms</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Clean branding</NavLink>
+                              </li>
+                            </ul>
+                          </p>
+                          <p>
+                            A well-designed clinic makes patients feel more at
+                            ease and improves their overall experience.
+                          </p>
+                        </div>
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            - Hotel and Hospitality Interiors
+                          </h3>
+                          <p>
+                            Hotels and other places that serve food and drink
+                            need to be both comfortable and luxurious.
+                          </p>
+                          <p>
+                            From the moment guests walk in, our interiors are
+                            stylish, welcoming, and long-lasting, and they feel
+                            warm and high-end.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="service-single-block m-b30">
+                        <h2
+                          className="m-t30 sx-tilte"
+                          style={{ fontSize: "32px" }}
+                        >
+                          Our Simple, Honest Design Process
+                        </h2>
+                        <p>
+                          It can be stressful to design a business space. That's
+                          why we make it easy.
+                        </p>
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            Step 1: Get to know your business
+                          </h3>
+                          <p>
+                            We sit down with you and talk about your business
+                            needs, style preferences, customer flow, and brand
+                            vision.
+                          </p>
+                          <p>No tech talk, just knowing what you want.</p>
+                        </div>
+
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            Step 2: Idea and Picture
+                          </h3>
+                          <p>
+                            We make mood boards, layout choices, and visual
+                            ideas.
+                          </p>
+                          <p>
+                            This helps you get a clear picture of your space
+                            before you start working.
+                          </p>
+                        </div>
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            Step 3: Build and do
+                          </h3>
+                          <p>
+                            Our skilled team takes care of flooring, lighting,
+                            carpentry, painting, furniture, MEP, branding, and
+                            putting things together.
+                          </p>
+                          <p>
+                            We keep the site neat and make sure everyone can see
+                            what's going on.
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            Step 4: Last Touches
+                          </h3>
+                          <p>
+                            This is where everything comes to life: the decor,
+                            the placement of the furniture, the lighting
+                            changes, the signs, the brand elements, and the
+                            final touch.
+                          </p>
+                        </div>
+                      </div>
+                      <h2
+                        className="m-t30 sx-tilte"
+                        style={{ fontSize: "28px" }}
+                      >
+                        Why Companies Rely on Our Commercial Interior Design
+                        Services
+                      </h2>
                       <div className="single-service-list">
                         <div className="row">
                           <div className="col-lg-6 col-md-12">
                             <ul className="list-angle-right anchor-line">
                               <li>
                                 <NavLink>
-                                  We take the time to learn about how you live.
+                                  We think about comfort and usefulness when we
+                                  design.
+                                </NavLink>
+                              </li>
+                              <li>
+                                <NavLink>
+                                  We have more than 20 years of experience in
+                                  design.
                                 </NavLink>
                               </li>
                               <li>
@@ -192,48 +537,39 @@ class Residential extends React.Component {
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink>
-                                  We design from the heart, not the head.
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink>
-                                  We don't just offer quick fixes; we offer real
-                                  solutions.
-                                </NavLink>
+                                <NavLink>We respect your deadlines.</NavLink>
                               </li>
                             </ul>
                           </div>
                           <div className="col-lg-6 col-md-12">
                             <ul className="list-angle-right anchor-line">
                               <li>
-                                <NavLink>
-                                  We have more than 20 years of experience on
-                                  every project.
-                                </NavLink>
+                                <NavLink>We know how to brand</NavLink>
                               </li>
                               <li>
                                 <NavLink>
-                                  We care about comfort, beauty, and usefulness
-                                  over time.
+                                  We find a balance between beauty and
+                                  usefulness.
                                 </NavLink>
                               </li>
                               <li>
                                 <NavLink>
                                   {" "}
-                                  We stick to our budgets and deadlines.
+                                  We make places that help businesses get
+                                  bigger.
                                 </NavLink>
                               </li>
                             </ul>
                           </div>
                         </div>
+                        <p>
+                          Your business space shouldn't just look nice; it
+                          should also be useful.
+                        </p>
                       </div>
                       <div className="sx-media sx-img-effect zoom-slow">
                         <div className="sx-thum-bx sx-img-overlay1 sx-img-effect yt-thum-box">
-                          <img
-                            src={bgimg1}
-                            alt=""
-                          />
+                          <img src={bgimg1} alt="" />
                           {/* <NavLink
                             to={"#"}
                             className="play-now"
@@ -258,8 +594,8 @@ class Residential extends React.Component {
                               href="#collapseOne5"
                               data-parent="#accordion5"
                             >
-                              What services do you offer for designing the
-                              interiors of homes?
+                              What do your commercial interior design services
+                              include?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -273,11 +609,11 @@ class Residential extends React.Component {
                           <div className="acod-content p-a15">
                             <p>
                               {" "}
-                              We can help you plan, design, and decorate your
-                              home with 3D visuals, furniture design, modular
-                              kitchens, wardrobes, lighting, materials, and
-                              more. We handle everything so you don't have to
-                              deal with many different people.
+                              We do everything, from planning the space and
+                              designing the layout to choosing the furniture,
+                              lighting, materials, carpentry, MEP, and final
+                              decor. We take care of the whole project from
+                              start to finish.
                             </p>
                           </div>
                         </div>
@@ -291,8 +627,8 @@ class Residential extends React.Component {
                               className="collapsed"
                               data-parent="#accordion5"
                             >
-                              Could you please let me know the typical duration
-                              for completing a project inside a house?
+                              How long does it take to do a commercial interior
+                              project?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -302,10 +638,14 @@ class Residential extends React.Component {
                         <div id="collapseTwo5" className="acod-body collapse">
                           <div className="acod-content p-a15">
                             <p>
-                              It depends on how big your house is. It could take
-                              a few weeks for one room and a few months for the
-                              whole house. But don't worry, we make a clear plan
-                              at the beginning and stick to it.
+                              It depends on how big and complicated your space
+                              is.
+                            </p>
+                            <p>It can take 4 to 10 weeks to get an office.</p>
+                            <p>6 to 12 weeks for restaurants.</p>
+                            <p>3 to 8 weeks for retail stores.</p>
+                            <p>
+                              Before we start, we agree on a clear timeline.
                             </p>
                           </div>
                         </div>
@@ -319,7 +659,7 @@ class Residential extends React.Component {
                               className="collapsed"
                               data-parent="#accordion5"
                             >
-                              Am I able to pick my own materials and finishes?
+                              Can you work with my budget?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -329,11 +669,9 @@ class Residential extends React.Component {
                         <div id="collapseThree5" className="acod-body collapse">
                           <div className="acod-content p-a15">
                             <p>
-                              Yes, of course! You should pick what you love
-                              because it's your home. We give you choices,
-                              compare the quality of different options, and
-                              provide suggestions, but you always make the final
-                              choice.
+                              Yes, sir. We change the materials, furniture, and
+                              finishes to fit your budget while still making the
+                              design look good and work well.
                             </p>
                           </div>
                         </div>
@@ -347,7 +685,7 @@ class Residential extends React.Component {
                               className="collapsed"
                               data-parent="#accordion5"
                             >
-                              What if I don't know what my style is?
+                              Do you take care of signs and branding?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -357,10 +695,9 @@ class Residential extends React.Component {
                         <div id="collapseFour5" className="acod-body collapse">
                           <div className="acod-content p-a15">
                             <p>
-                              Don't worry; most people don't. We help you find
-                              your style by showing you examples, themes, and
-                              ideas until something "clicks" for you. It's a fun
-                              and easy process.
+                              Yes. We use colours, patterns, signs, and other
+                              visual elements that fit your brand personality to
+                              help you build your brand identity.
                             </p>
                           </div>
                         </div>
@@ -374,8 +711,8 @@ class Residential extends React.Component {
                               className="collapsed"
                               data-parent="#accordion5"
                             >
-                              Do you have designs for people with different
-                              budgets?
+                              Do you offer commercial interior design services
+                              all over the world?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -385,9 +722,10 @@ class Residential extends React.Component {
                         <div id="collapseFive5" className="acod-body collapse">
                           <div className="acod-content p-a15">
                             <p>
-                              Yes, for sure. We work with a wide range of
-                              budgets and give you real choices that don't
-                              sacrifice beauty or comfort.
+                              Yes, sir. We work with clients all over the world
+                              by coordinating remotely, making digital plans,
+                              and giving them detailed instructions on how to
+                              carry them out.
                             </p>
                           </div>
                         </div>
@@ -401,7 +739,8 @@ class Residential extends React.Component {
                               className="collapsed"
                               data-parent="#accordion5"
                             >
-                              Do you offer services outside of your country?
+                              Will the design get in the way of my current
+                              business?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -411,16 +750,36 @@ class Residential extends React.Component {
                         <div id="collapseSix5" className="acod-body collapse">
                           <div className="acod-content p-a15">
                             <p>
-                              Yes, sir. We assist clients worldwide by
-                              facilitating online conversations and providing
-                              them with comprehensive design plans that are
-                              adaptable to any location.
+                              We plan to work in stages, keep the site clean,
+                              and coordinate our schedules to keep things
+                              running smoothly.
                             </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+                  <h2 className="m-t10 sx-tilte" style={{ fontSize: "24px" }}>
+                    Are you ready to make your business space better?
+                  </h2>
+                  <p>
+                    We're here to help you find a commercial space that feels
+                    professional, welcoming, and in line with your brand. We'll
+                    do it with honesty, clarity, and a friendly, human touch.
+                  </p>
+                  <p>
+                    <ul className="list-angle-right anchor-line">
+                      <li>
+                        <NavLink>Book a Free Design Consultation</NavLink>
+                      </li>
+                      <li>
+                        <NavLink> Get a Custom Quotation</NavLink>
+                      </li>
+                      <li>
+                        <NavLink>Talk to Our Commercial Design Experts</NavLink>
+                      </li>
+                    </ul>
+                  </p>
                 </div>
               </div>
               {/* GALLERY CONTENT END */}
@@ -442,4 +801,4 @@ class Residential extends React.Component {
   }
 }
 
-export default Residential;
+export default Commercial;

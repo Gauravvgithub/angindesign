@@ -26,7 +26,14 @@ class Residential extends React.Component {
             <div className="container">
               {/* GALLERY CONTENT START */}
               <div className="row">
-                <div className="col-lg-4 col-md-12 sticky_column">
+                <div className="col-lg-4 col-md-12"
+                  style={{
+                    position: "sticky",
+                    top: "120px",
+                    alignSelf: "flex-start",
+                    height: "fit-content",
+                    zIndex: 5,
+                  }}>
                   <div className="about4-section m-b20 bg-gray p-a20">
                     <div className="widget widget_services">
                       <h4 className="widget-title">More Services</h4>
@@ -600,6 +607,18 @@ class Residential extends React.Component {
                       </div>
                     </div>
                   </div>
+                  <h2 className="m-t10 sx-tilte" style={{ fontSize: "24px" }}>
+                    Are you ready to make a home you'll really love?
+                  </h2>
+                  <p>
+                    We're here to help you find a home that feels warm,
+                    welcoming, and made just for you.
+                  </p>
+                  <p>
+                    {" "}
+                    Don't worry. Don't worry. The design is honest and
+                    incorporates a personal touch.
+                  </p>
                 </div>
               </div>
               {/* GALLERY CONTENT END */}

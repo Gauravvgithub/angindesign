@@ -5,7 +5,9 @@ import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
 
-var bnrimg = require("./../../images/banner/4.jpg");
+var bnrimg = require("./../../images/services/office/banner.webp");
+var bgimg1 = require("./../../images/services/office/bg1.webp");
+var bgimg2 = require("./../../images/services/office/bg2.webp");
 
 class Office extends React.Component {
   render() {
@@ -14,9 +16,9 @@ class Office extends React.Component {
         <Header />
         <div className="page-content">
           <Banner
-            title="Service Details"
-            pagename="Service Detail"
-            description="The essence of interior design will always be about people and how they live. It is about the realities of what makes for an attractive, civilized."
+            title="Office Interior Design"
+            pagename="Office Interior Design"
+            description="Creating Professional and Functional Workspaces"
             bgimage={bnrimg}
           />
           {/* SECTION CONTENT START */}
@@ -24,32 +26,54 @@ class Office extends React.Component {
             <div className="container">
               {/* GALLERY CONTENT START */}
               <div className="row">
-                <div className="col-lg-4 col-md-12 sticky_column">
+                <div
+                  className="col-lg-4 col-md-12"
+                  style={{
+                    position: "sticky",
+                    top: "120px",
+                    alignSelf: "flex-start",
+                    height: "fit-content",
+                    zIndex: 5,
+                  }}
+                >
                   <div className="about4-section m-b20 bg-gray p-a20">
                     <div className="widget widget_services">
                       <h4 className="widget-title">More Services</h4>
                       <ul className="bg-white">
                         <li>
-                          <NavLink to={"/services-1"}>Architedfasfcture</NavLink>
+                          <NavLink to={"/services/residential"}>
+                            Residential
+                          </NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services-1"}>Interior</NavLink>
+                          <NavLink to={"/services/commercial"}>
+                            Commercial
+                          </NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services-1"}>Decoration</NavLink>
+                          <NavLink to={"/services/restaurant"}>
+                            Restaurant
+                          </NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services-1"}>Furniture</NavLink>
+                          <NavLink to={"/services/salon"}>Salon</NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services-1"}>Floor Plan</NavLink>
+                          <NavLink to={"/services/bar"}>Bar</NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services-1"}>Exterior</NavLink>
+                          <NavLink to={"/services/consultancy"}>
+                            Consultancy
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink to={"/services/modular-wooden-work"}>
+                            Modular Wooden Work
+                          </NavLink>
                         </li>
                       </ul>
                     </div>
-                    <div className="wt-icon-box-wraper left bg-white p-a15 m-b10">
+                    {/* <div className="wt-icon-box-wraper left bg-white p-a15 m-b10">
                       <NavLink to={"/services-1"} className="btn-block">
                         <span className="text-black m-r10">
                           <i className="fa fa-file-pdf-o" />
@@ -79,7 +103,7 @@ class Office extends React.Component {
                           Download .PPT
                         </strong>
                       </NavLink>
-                    </div>
+                    </div> 
                     <div className="about4-content m-t30">
                       <h4>GET 10% OFF TODAY</h4>
                       <p>
@@ -89,70 +113,522 @@ class Office extends React.Component {
                       <NavLink to={"/services-1"} className="site-button-link">
                         Read More
                       </NavLink>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="col-lg-8 col-md-12">
                   <div className="section-content">
                     <div className="service-single-block m-b30">
                       <div className="sx-media">
-                        <img
-                          src={require("./../../images/gallery/pic5.jpg")}
-                          alt=""
-                        />
+                        <img src={bgimg2} alt="" />
                       </div>
-                      <h3 className="m-t30 sx-tilte">
-                        Interior design, a fine line with more shine a design
-                        gives you.
+                      <h1
+                        className="m-t30 sx-tilte"
+                        style={{ fontSize: "38px" }}
+                      >
+                        Office Interior Design Services
+                      </h1>
+                      <h3
+                        className="m-t10 sx-tilte"
+                        style={{ fontSize: "18px" }}
+                      >
+                        <i>
+                          Provided by the Best Office Interior Designer in Delhi
+                        </i>
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex
-                        ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur.
+                        Choosing furniture and wall décor is just one aspect of
+                        office design; another is creating a space where teams
+                        work together, ideas flourish, and your company really
+                        takes off. Your workspace impacts client perceptions,
+                        team morale, employee comfort, productivity, and even
+                        the calibre of work produced.
                       </p>
                       <p>
-                        Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
-                        Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudantium, totam rem
-                        aperiam, eaque ipsa quae ab illo inventore veritatis et
-                        quasi.
+                        At Ang InDesign, we recognise that an office is the
+                        lifeblood of your company and not just a place.
                       </p>
-                      <h4 className="m-t30 sx-tilte">
-                        Professional Interior Design Service
-                      </h4>
+                      <p>
+                        And for that reason, as the top office interior designer
+                        in Delhi, we take a very individualised, considerate,
+                        and meticulous approach.
+                      </p>
+                      <p>
+                        We create workplaces that are harmonious, motivating,
+                        and technologically advanced, making employees delighted
+                        to enter each morning.
+                      </p>
+
+                      <div className="service-single-block m-b30">
+                        <h2
+                          className="m-t30 sx-tilte"
+                          style={{ fontSize: "32px" }}
+                        >
+                          We Create Experiences, Not Just Offices
+                        </h2>
+                        <p>Every company is unique.</p>
+                        <p>Each team operates uniquely.</p>
+                        <p>Every business has a unique culture.</p>
+                        <p>
+                          <ul className="list-angle-right anchor-line">
+                            <li>
+                              <NavLink>
+                                We never impose a style or trend on you because
+                                of this.
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink>
+                                Rather, we take time to comprehend how your team
+                                operates.
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink>
+                                What kind of setting are you looking for?
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink>The personality of your brand.</NavLink>
+                            </li>
+                            <li>
+                              <NavLink>How much room do you have?</NavLink>
+                            </li>
+                            <li>
+                              <NavLink>Your plans for future growth.</NavLink>
+                            </li>
+                          </ul>
+                        </p>
+                        <p>Your priorities, comfort level, and budget.</p>
+                        <p>
+                          We then translate that into a work environment that is
+                          comfortable for you.
+                        </p>
+                        <p>
+                          <ul className="list-angle-right anchor-line">
+                            Our objective is to establish an environment where:
+                            <li>
+                              <NavLink>
+                                Your team feels motivated and inspired.
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink>
+                                Clients have faith in your professionalism.
+                              </NavLink>
+                            </li>
+                            <li>
+                              <NavLink>Meetings are effective.</NavLink>
+                            </li>
+                            <li>
+                              <NavLink>Work feels more seamless.</NavLink>
+                            </li>
+                            <li>
+                              <NavLink>
+                                Your brand is evident everywhere.
+                              </NavLink>
+                            </li>
+                          </ul>
+                        </p>
+                        <p>
+                          This is how top <b>office interior designers</b> in{" "}
+                          <b>Delhi</b> create real value.
+                        </p>
+                      </div>
+
+                      <div className="service-single-block m-b30">
+                        <h2
+                          className="m-t30 sx-tilte"
+                          style={{ fontSize: "32px" }}
+                        >
+                          Our Interior Design Services Are For Offices
+                        </h2>
+                        <p>
+                          Below is a comprehensive list of our products, all
+                          designed to enhance the efficiency, comfort, and
+                          beauty of your workspace.
+                        </p>
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            1. Workspace Design & Planning
+                          </h3>
+                          <p>We begin by figuring out how your team works.</p>
+                          <p>Do you run a cooperative business?</p>
+                          <p>Or do you require quiet areas?</p>
+                          <p>
+                            <ul className="list-angle-right anchor-line">
+                              We create layouts that enhance:
+                              <li>
+                                <NavLink>Workflow</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Comfort of seating</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Flow of movement</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>
+                                  Collaborations within the team
+                                </NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Balance of noise</NavLink>
+                              </li>
+                            </ul>
+                          </p>
+                          <p>
+                            More than ornate décor, a well-thought-out office
+                            layout boosts productivity.
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            2. Modern Seating and Workstations
+                          </h3>
+                          <p>
+                            Comfort is important because your team spends eight
+                            to ten hours here.
+                          </p>
+                          <p>
+                            We create ergonomically intelligent workstations
+                            that enhance concentration and lessen fatigue.
+                          </p>
+                          <p>
+                            Long workdays are made easier with chic yet
+                            functional seating.
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            3. Meeting Spaces and Conference Rooms
+                          </h3>
+                          <p>Meetings shape decisions.</p>
+                          <p>Decisions also influence development.</p>
+                          <p>
+                            <ul className="list-angle-right anchor-line">
+                              We Design:
+                              <li>
+                                <NavLink>
+                                  We design expert conference spaces.
+                                </NavLink>
+                              </li>
+                              <li>
+                                <NavLink>
+                                  We design spaces that foster creative
+                                  brainstorming.
+                                </NavLink>
+                              </li>
+                              <li>
+                                <NavLink>
+                                  Areas for private conversation.
+                                </NavLink>
+                              </li>
+                            </ul>
+                          </p>
+                          <p>Areas that are cosy and motivated.</p>
+                        </div>
+
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            4. Waiting areas designated for clients and
+                            reception staff
+                          </h3>
+                          <p>
+                            The reception you receive shapes your brand's
+                            initial impression.
+                          </p>
+                          <p>
+                            It should have a warm, self-assured, and upscale
+                            vibe.
+                          </p>
+                          <p>
+                            Even before you speak, we create receptions that
+                            highlight your brand.
+                          </p>
+                        </div>
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            5. Director & CEO Cabin Design
+                          </h3>
+                          <p>
+                            Leadership spaces should reflect authority, clarity,
+                            and comfort.
+                          </p>
+                          <p>
+                            <ul className="list-angle-right anchor-line">
+                              We design cabins that balance:
+                              <li>
+                                <NavLink>Professional look</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Privacy</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Focus</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Storage</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Personal aesthetics</NavLink>
+                              </li>
+                            </ul>
+                          </p>
+                          <p>
+                            Leaders need a peaceful and uninterrupted
+                            environment to work effectively.
+                          </p>
+                        </div>
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            6. Pantry Design & Breakout Zones
+                          </h3>
+                          <p>A productive team is at ease.</p>
+                          <p>
+                            <ul className="list-angle-right anchor-line">
+                              We design:
+                              <li>
+                                <NavLink>Breakout corners</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Cozy lounges</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Pantry spaces</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Recreational areas</NavLink>
+                              </li>
+                            </ul>
+                          </p>
+                          <p>
+                            These small spaces drastically alter the office
+                            culture.
+                          </p>
+                        </div>
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            7. Visual Styling & Brand Identity
+                          </h3>
+                          <p>You should be able to see your brand.</p>
+                          <p>
+                            <ul className="list-angle-right anchor-line">
+                              We draw attention to it by using:
+                              <li>
+                                <NavLink>Colors</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Materials</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Wall art</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Signs</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Lighting</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Styling furniture</NavLink>
+                              </li>
+                            </ul>
+                          </p>
+                          <p>
+                            Customers and staff get a great impression of the
+                            brand as a result.
+                          </p>
+                        </div>
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            8. Full Turnkey Interior Office Solutions
+                          </h3>
+                          <p>
+                            We take care of everything, from preparation to
+                            execution.
+                          </p>
+                          <p>
+                            <ul className="list-angle-right anchor-line">
+                              Coordinating with several vendors is not
+                              necessary.
+                              <li>
+                                <NavLink>Civil Work</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Electrical and Lighting</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Furniture</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>False Ceilings</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Flooring</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Painting</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Décor</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Brand Graphics</NavLink>
+                              </li>
+                            </ul>
+                          </p>
+                          <p>
+                            Seamless and stress-free experience from start to
+                            finish.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="service-single-block m-b30">
+                        <h2
+                          className="m-t30 sx-tilte"
+                          style={{ fontSize: "32px" }}
+                        >
+                          Our Design Process Is Simple, Clear & Professional.
+                        </h2>
+                        <p>
+                          We follow an intuitive, clear, and expert design
+                          process. <br /> Many companies worry that office
+                          design work will disrupt their operations.
+                        </p>
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            Step 1: Recognising Your Needs
+                          </h3>
+                          <p>
+                            We sit down with you and learn about your workplace
+                            culture, team size, preferred style, and growth
+                            goals.
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            Step 2: Concept and Space Planning
+                          </h3>
+                          <p>
+                            To help you envision your future space, we produce
+                            preliminary layouts, 2D planning, and thematic
+                            concepts.
+                          </p>
+                        </div>
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            Step 3: Visualisation in 3D
+                          </h3>
+                          <p>
+                            Before any work begins, we create 3D designs that
+                            accurately depict your office.
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            Step 4: Choosing Materials and Furnishings
+                          </h3>
+                          <p>
+                            We create a long-lasting workspace by fusing design
+                            and durability.
+                          </p>
+                        </div>
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            Step 5: Complete Implementation
+                          </h3>
+                          <p>
+                            Every installation, detail, and finishing is
+                            completed under supervision and with skill.
+                          </p>
+                        </div>
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            Step 6: Complete Configuration
+                          </h3>
+                          <p>
+                            To finish your office, we add branding, décor,
+                            lighting changes, and styling elements.
+                          </p>
+                        </div>
+                      </div>
+                      <h2
+                        className="m-t30 sx-tilte"
+                        style={{ fontSize: "28px" }}
+                      >
+                        Why Companies Rely on Us as Delhi's Top Office Interior
+                        Designer
+                      </h2>
                       <div className="single-service-list">
                         <div className="row">
                           <div className="col-lg-6 col-md-12">
                             <ul className="list-angle-right anchor-line">
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  We provide high quality design services.
+                                <NavLink>
+                                  More than 20 years of experience
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  We are confident about our projects.
+                                <NavLink>
+                                  Transparent and unambiguous communication
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  A good Work Environment For work
+                                <NavLink>
+                                  Strong comprehension of business requirements
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  Communication Skills to getting in touch
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink to={"/services-1"}>
-                                  {" "}
-                                  Renovations Benefit of Service
+                                <NavLink>
+                                  Personalised layout for each office
                                 </NavLink>
                               </li>
                             </ul>
@@ -160,42 +636,35 @@ class Office extends React.Component {
                           <div className="col-lg-6 col-md-12">
                             <ul className="list-angle-right anchor-line">
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  Sustainability and modern tech.
+                                <NavLink>
+                                  The project is completed on time
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  A Career Overview opportunity Available
+                                <NavLink>
+                                  Cost-effective & durable solutions.
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  Scientific Skills For getting a better result
-                                </NavLink>
+                                <NavLink>Clean workmanship</NavLink>
                               </li>
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  {" "}
-                                  Historic Renovations and Restorations.
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink to={"/services-1"}>
-                                  Project on time and Latest Design
-                                </NavLink>
+                                <NavLink>Complete project management</NavLink>
                               </li>
                             </ul>
                           </div>
                         </div>
+                        <p>
+                          We provide more than just designs.
+                          <br />
+                          We provide a space that fosters the expansion of your
+                          company.
+                        </p>
                       </div>
                       <div className="sx-media sx-img-effect zoom-slow">
                         <div className="sx-thum-bx sx-img-overlay1 sx-img-effect yt-thum-box">
-                          <img
-                            src="https://img.youtube.com/vi/Oy2QIiSQT2U/0.jpg"
-                            alt=""
-                          />
-                          <NavLink
+                          <img src={bgimg1} alt="" />
+                          {/* <NavLink
                             to={"#"}
                             className="play-now"
                             data-toggle="modal"
@@ -203,7 +672,7 @@ class Office extends React.Component {
                           >
                             <i className="icon fa fa-play" />
                             <span className="ripple" />
-                          </NavLink>
+                          </NavLink> */}
                         </div>
                       </div>
                     </div>
@@ -219,7 +688,8 @@ class Office extends React.Component {
                               href="#collapseOne5"
                               data-parent="#accordion5"
                             >
-                              Choose between rates or instant payment
+                              How much does a Delhi office interior design
+                              project cost?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -233,12 +703,10 @@ class Office extends React.Component {
                           <div className="acod-content p-a15">
                             <p>
                               {" "}
-                              Motivate others and change the way we feel about
-                              ourselves. This is why I find them so interesting
-                              and crucial on our paths to success mauris
-                              accumsan eros eget libero posuere vulputate. Etiam
-                              elit elit, elementum sed varius at, adipiscing
-                              vitae est. Sed nec felis pellentesque.
+                              The size of the space, the materials used, the
+                              furniture chosen, and the design specifications
+                              all affect the cost. After learning about your
+                              requirements, we offer a comprehensive quote.
                             </p>
                           </div>
                         </div>
@@ -252,7 +720,8 @@ class Office extends React.Component {
                               className="collapsed"
                               data-parent="#accordion5"
                             >
-                              Come to see a live preview
+                              How long does it take to finish an interior design
+                              project for an office?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -262,10 +731,9 @@ class Office extends React.Component {
                         <div id="collapseTwo5" className="acod-body collapse">
                           <div className="acod-content p-a15">
                             <p>
-                              Inspirational quotes have an amazing ability to
-                              motivate others and change the way we feel about
-                              ourselves. This is why I find them so interesting
-                              and crucial on our paths to success.
+                              It might take three to four weeks for a small
+                              office and six to ten weeks for a larger one. We
+                              always adhere to a strict schedule.
                             </p>
                           </div>
                         </div>
@@ -279,7 +747,7 @@ class Office extends React.Component {
                               className="collapsed"
                               data-parent="#accordion5"
                             >
-                              Choose the correct service
+                              Do you offer 3D designs before implementation?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -289,15 +757,104 @@ class Office extends React.Component {
                         <div id="collapseThree5" className="acod-body collapse">
                           <div className="acod-content p-a15">
                             <p>
-                              The leap into electronic typesetting, remaining
-                              essentially unchanged. It was popularised sheets
-                              containing Lorem Ipsum passagese.
+                              Yes, we offer full 3D visualisation so you can see
+                              the finished product.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="panel sx-panel">
+                        <div className="acod-head">
+                          <h6 className="acod-title">
+                            <a
+                              data-toggle="collapse"
+                              href="#collapseFour5"
+                              className="collapsed"
+                              data-parent="#accordion5"
+                            >
+                              Are you able to design offices for corporations,
+                              startups, and IT companies?
+                              <span className="indicator">
+                                <i className="fa" />
+                              </span>
+                            </a>
+                          </h6>
+                        </div>
+                        <div id="collapseFour5" className="acod-body collapse">
+                          <div className="acod-content p-a15">
+                            <p>
+                              Of course. We adapt designs according to business
+                              culture and work with all industries.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="panel sx-panel">
+                        <div className="acod-head">
+                          <h6 className="acod-title">
+                            <a
+                              data-toggle="collapse"
+                              href="#collapseFive5"
+                              className="collapsed"
+                              data-parent="#accordion5"
+                            >
+                              Do you provide turnkey solutions?
+                              <span className="indicator">
+                                <i className="fa" />
+                              </span>
+                            </a>
+                          </h6>
+                        </div>
+                        <div id="collapseFive5" className="acod-body collapse">
+                          <div className="acod-content p-a15">
+                            <p>
+                              Indeed. From preparation to completion, we take
+                              care of everything.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="panel sx-panel">
+                        <div className="acod-head">
+                          <h6 className="acod-title">
+                            <a
+                              data-toggle="collapse"
+                              href="#collapseSix5"
+                              className="collapsed"
+                              data-parent="#accordion5"
+                            >
+                              Can you create something that fits my budget?
+                              <span className="indicator">
+                                <i className="fa" />
+                              </span>
+                            </a>
+                          </h6>
+                        </div>
+                        <div id="collapseSix5" className="acod-body collapse">
+                          <div className="acod-content p-a15">
+                            <p>
+                              Yes, we provide a variety of choices and operate
+                              honestly within your financial constraints.
                             </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+                  <h2 className="m-t10 sx-tilte" style={{ fontSize: "24px" }}>
+                    Are You Prepared to Change Your Workspace?
+                  </h2>
+                  <p>There is more to your office than just a place to work.</p>
+                  <p>
+                    {" "}
+                    Your surroundings reflect your brand, culture, and
+                    aspirations.
+                  </p>
+                  <p>
+                    Together, we can create a work environment that will
+                    motivate your team and contribute to the success of your
+                    business.
+                  </p>
                 </div>
               </div>
               {/* GALLERY CONTENT END */}
@@ -320,4 +877,3 @@ class Office extends React.Component {
 }
 
 export default Office;
-    
