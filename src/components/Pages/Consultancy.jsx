@@ -5,7 +5,9 @@ import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
 
-var bnrimg = require("./../../images/banner/4.jpg");
+var bnrimg = require("./../../images/services/consultancy/banner.webp");
+var bgimg1 = require("./../../images/services/consultancy/bg1.webp");
+var bgimg2 = require("./../../images/services/consultancy/bg2.webp");
 
 class Consultancy extends React.Component {
   render() {
@@ -14,9 +16,9 @@ class Consultancy extends React.Component {
         <Header />
         <div className="page-content">
           <Banner
-            title="Service Details"
-            pagename="Service Detail"
-            description="The essence of interior design will always be about people and how they live. It is about the realities of what makes for an attractive, civilized."
+            title="Consultancy Interior Design"
+            pagename="Consultancy Interior Design"
+            description="Creating inspiring consultancy interiors that foster innovation and collaboration."
             bgimage={bnrimg}
           />
           {/* SECTION CONTENT START */}
@@ -24,32 +26,52 @@ class Consultancy extends React.Component {
             <div className="container">
               {/* GALLERY CONTENT START */}
               <div className="row">
-                <div className="col-lg-4 col-md-12 sticky_column">
+                <div
+                  className="col-lg-4 col-md-12"
+                  style={{
+                    position: "sticky",
+                    top: "120px",
+                    alignSelf: "flex-start",
+                    height: "fit-content",
+                    zIndex: 5,
+                  }}
+                >
                   <div className="about4-section m-b20 bg-gray p-a20">
                     <div className="widget widget_services">
                       <h4 className="widget-title">More Services</h4>
                       <ul className="bg-white">
                         <li>
-                          <NavLink to={"/services-1"}>Architedfasfcture</NavLink>
+                          <NavLink to={"/services/residential"}>
+                            Residential
+                          </NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services-1"}>Interior</NavLink>
+                          <NavLink to={"/services/commercial"}>
+                            Commercial
+                          </NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services-1"}>Decoration</NavLink>
+                          <NavLink to={"/services/bar"}>Bar</NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services-1"}>Furniture</NavLink>
+                          <NavLink to={"/services/office"}>Office</NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services-1"}>Floor Plan</NavLink>
+                          <NavLink to={"/services/salon"}>Salon</NavLink>
                         </li>
                         <li>
-                          <NavLink to={"/services-1"}>Exterior</NavLink>
+                          <NavLink to={"/services/restaurant"}>
+                            Restaurant
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink to={"/services/modular-wooden-work"}>
+                            Modular Wooden Work
+                          </NavLink>
                         </li>
                       </ul>
                     </div>
-                    <div className="wt-icon-box-wraper left bg-white p-a15 m-b10">
+                    {/* <div className="wt-icon-box-wraper left bg-white p-a15 m-b10">
                       <NavLink to={"/services-1"} className="btn-block">
                         <span className="text-black m-r10">
                           <i className="fa fa-file-pdf-o" />
@@ -79,7 +101,7 @@ class Consultancy extends React.Component {
                           Download .PPT
                         </strong>
                       </NavLink>
-                    </div>
+                    </div> 
                     <div className="about4-content m-t30">
                       <h4>GET 10% OFF TODAY</h4>
                       <p>
@@ -89,70 +111,188 @@ class Consultancy extends React.Component {
                       <NavLink to={"/services-1"} className="site-button-link">
                         Read More
                       </NavLink>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div className="col-lg-8 col-md-12">
                   <div className="section-content">
                     <div className="service-single-block m-b30">
                       <div className="sx-media">
-                        <img
-                          src={require("./../../images/gallery/pic5.jpg")}
-                          alt=""
-                        />
+                        <img src={bgimg2} alt="" />
                       </div>
-                      <h3 className="m-t30 sx-tilte">
-                        Interior design, a fine line with more shine a design
-                        gives you.
+                      <h1
+                        className="m-t30 sx-tilte"
+                        style={{ fontSize: "38px" }}
+                      >
+                        Free Interior Design Consultancy
+                      </h1>
+                      <h3
+                        className="m-t10 sx-tilte"
+                        style={{ fontSize: "18px" }}
+                      >
+                        <i>
+                          Simple, clear guidance from a designer who genuinely
+                          wants to help.
+                        </i>
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex
-                        ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur.
+                        Designing a home can feel confusing so many ideas,
+                        styles, materials, and decisions. And most people don’t
+                        know where to begin. Our{" "}
+                        <b> Free Interior Design Consultancy </b> is created to
+                        make your first step easy, clear, and stress-free.
                       </p>
                       <p>
-                        Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
-                        Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudantium, totam rem
-                        aperiam, eaque ipsa quae ab illo inventore veritatis et
-                        quasi.
+                        It’s not a sales meeting.
+                        <br />
+                        It’s a conversation.
+                        <br />A calm, helpful discussion where we understand
+                        your space, your lifestyle, and what kind of home you
+                        want to build, and then guide you in the simplest way
+                        possible.
                       </p>
-                      <h4 className="m-t30 sx-tilte">
-                        Professional Interior Design Service
-                      </h4>
+                      <p>
+                        As one of the <b> Best Interior Designers in Delhi </b>,
+                        our goal is to make sure you feel confident and informed
+                        before you make any big decisions.
+                      </p>
+
+                      <div className="service-single-block m-b30">
+                        <h2
+                          className="m-t30 sx-tilte"
+                          style={{ fontSize: "32px" }}
+                        >
+                          What You’ll Get in the Consultation
+                        </h2>
+
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            1. A Clear Understanding of What You Need
+                          </h3>
+                          <p>
+                            We start by listening to how you live, what you
+                            like, what bothers you about your current space, and
+                            what you want your home to feel like.
+                            <br />
+                            This helps us suggest ideas that actually fit your
+                            life, not just the floor plan.
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            2. Style Direction That Feels Natural to You
+                          </h3>
+                          <p>
+                            If you’re unsure about your style, don’t worry.
+                            <br />
+                            We help you identify what suits you warm, modern,
+                            minimal, soft, luxury, or a blend.
+                            <br />
+                            The idea is to make your home feel comfortable, not
+                            confusing.
+                          </p>
+                        </div>
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            3. Realistic Budget Guidance
+                          </h3>
+
+                          <p>
+                            Interior design becomes easier when you know where
+                            to invest and where to avoid overspending.
+                            <br />
+                            We break it down clearly so you can plan with
+                            confidence.
+                          </p>
+                        </div>
+
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            4. Practical Tips to Make Rooms Look & Work Better
+                          </h3>
+                          <p>
+                            Small layout changes can make a huge difference.
+                            <br />
+                            We guide you on space planning, furniture
+                            positioning, and storage ideas that make your home
+                            feel more open and organized.
+                          </p>
+                        </div>
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            5. Simple Material Advice
+                          </h3>
+                          <p>
+                            We explain materials like plywood, laminates,
+                            veneers, and finishes in easy language so you know
+                            exactly what you’re choosing and why.
+                          </p>
+                        </div>
+                        <div>
+                          <h3
+                            className="m-t10 sx-tilte"
+                            style={{ fontSize: "24px" }}
+                          >
+                            6. A Step-by-Step Roadmap For Your Home
+                          </h3>
+                          <p>
+                            Before the call ends, you’ll know the right sequence
+                            to follow, what to start with, what to avoid, and
+                            how to approach your project smoothly.
+                          </p>
+                        </div>
+                      </div>
+
+                      <h2
+                        className="m-t30 sx-tilte"
+                        style={{ fontSize: "28px" }}
+                      >
+                        Why People Prefer Our Consultancy
+                      </h2>
                       <div className="single-service-list">
                         <div className="row">
                           <div className="col-lg-6 col-md-12">
                             <ul className="list-angle-right anchor-line">
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  We provide high quality design services.
+                                <NavLink>
+                                  We speak in simple, clear language.
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  We are confident about our projects.
+                                <NavLink>
+                                  We don’t rush or push decisions.
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  A good Work Environment For work
+                                <NavLink>
+                                  We offer honest advice based on lifestyle.
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  Communication Skills to getting in touch
+                                <NavLink>
+                                  We help you avoid expensive mistakes.
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  {" "}
-                                  Renovations Benefit of Service
+                                <NavLink>
+                                  We understand how real homes actually
+                                  function.
                                 </NavLink>
                               </li>
                             </ul>
@@ -160,42 +300,30 @@ class Consultancy extends React.Component {
                           <div className="col-lg-6 col-md-12">
                             <ul className="list-angle-right anchor-line">
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  Sustainability and modern tech.
+                                <NavLink>
+                                  We design for comfort, not just aesthetics.
                                 </NavLink>
                               </li>
                               <li>
-                                <NavLink to={"/services-1"}>
-                                  A Career Overview opportunity Available
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink to={"/services-1"}>
-                                  Scientific Skills For getting a better result
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink to={"/services-1"}>
-                                  {" "}
-                                  Historic Renovations and Restorations.
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink to={"/services-1"}>
-                                  Project on time and Latest Design
+                                <NavLink>
+                                  We genuinely care about what will work for
+                                  you.
                                 </NavLink>
                               </li>
                             </ul>
                           </div>
                         </div>
+                        <p>
+                          People choose us as one of the{" "}
+                          <b> Best Interior Designers in Delhi</b> because our
+                          guidance feels real and relatable, not complicated or
+                          sales-driven.
+                        </p>
                       </div>
                       <div className="sx-media sx-img-effect zoom-slow">
                         <div className="sx-thum-bx sx-img-overlay1 sx-img-effect yt-thum-box">
-                          <img
-                            src="https://img.youtube.com/vi/Oy2QIiSQT2U/0.jpg"
-                            alt=""
-                          />
-                          <NavLink
+                          <img src={bgimg1} alt="" />
+                          {/* <NavLink
                             to={"#"}
                             className="play-now"
                             data-toggle="modal"
@@ -203,7 +331,7 @@ class Consultancy extends React.Component {
                           >
                             <i className="icon fa fa-play" />
                             <span className="ripple" />
-                          </NavLink>
+                          </NavLink> */}
                         </div>
                       </div>
                     </div>
@@ -219,7 +347,7 @@ class Consultancy extends React.Component {
                               href="#collapseOne5"
                               data-parent="#accordion5"
                             >
-                              Choose between rates or instant payment
+                              Is the consultancy completely free?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -233,12 +361,8 @@ class Consultancy extends React.Component {
                           <div className="acod-content p-a15">
                             <p>
                               {" "}
-                              Motivate others and change the way we feel about
-                              ourselves. This is why I find them so interesting
-                              and crucial on our paths to success mauris
-                              accumsan eros eget libero posuere vulputate. Etiam
-                              elit elit, elementum sed varius at, adipiscing
-                              vitae est. Sed nec felis pellentesque.
+                              Yes, there is no charge and no obligation to start
+                              a project.
                             </p>
                           </div>
                         </div>
@@ -252,7 +376,7 @@ class Consultancy extends React.Component {
                               className="collapsed"
                               data-parent="#accordion5"
                             >
-                              Come to see a live preview
+                              What do I need for the consultation?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -262,10 +386,8 @@ class Consultancy extends React.Component {
                         <div id="collapseTwo5" className="acod-body collapse">
                           <div className="acod-content p-a15">
                             <p>
-                              Inspirational quotes have an amazing ability to
-                              motivate others and change the way we feel about
-                              ourselves. This is why I find them so interesting
-                              and crucial on our paths to success.
+                              Nothing specific. A floor plan helps, but it’s not
+                              required.
                             </p>
                           </div>
                         </div>
@@ -279,7 +401,7 @@ class Consultancy extends React.Component {
                               className="collapsed"
                               data-parent="#accordion5"
                             >
-                              Choose the correct service
+                              Will you help me understand the budget clearly?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -289,15 +411,87 @@ class Consultancy extends React.Component {
                         <div id="collapseThree5" className="acod-body collapse">
                           <div className="acod-content p-a15">
                             <p>
-                              The leap into electronic typesetting, remaining
-                              essentially unchanged. It was popularised sheets
-                              containing Lorem Ipsum passagese.
+                              Yes, we guide you on realistic costing and smart
+                              planning.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="panel sx-panel">
+                        <div className="acod-head">
+                          <h6 className="acod-title">
+                            <a
+                              data-toggle="collapse"
+                              href="#collapseFour5"
+                              className="collapsed"
+                              data-parent="#accordion5"
+                            >
+                              How long is the session?
+                              <span className="indicator">
+                                <i className="fa" />
+                              </span>
+                            </a>
+                          </h6>
+                        </div>
+                        <div id="collapseFour5" className="acod-body collapse">
+                          <div className="acod-content p-a15">
+                            <p>
+                              Usually 25–40 minutes, depending on the number of
+                              questions.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="panel sx-panel">
+                        <div className="acod-head">
+                          <h6 className="acod-title">
+                            <a
+                              data-toggle="collapse"
+                              href="#collapseFive5"
+                              className="collapsed"
+                              data-parent="#accordion5"
+                            >
+                              Do I get a proper plan after the call?
+                              <span className="indicator">
+                                <i className="fa" />
+                              </span>
+                            </a>
+                          </h6>
+                        </div>
+                        <div id="collapseFive5" className="acod-body collapse">
+                          <div className="acod-content p-a15">
+                            <p>
+                              Yes, we share a clear direction, so you know
+                              exactly how to move forward.
                             </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
+                  <h2 className="m-t10 sx-tilte" style={{ fontSize: "24px" }}>
+                    Ready for Simple, Helpful Guidance?
+                  </h2>
+                  <p>
+                    If you want to start your interior journey confidently,
+                    we’re here to guide you — calmly, clearly, and with genuine
+                    care.
+                  </p>
+                  <p>
+                    <ul className="list-angle-right anchor-line">
+                      <li>
+                        <NavLink>Book Your Free Consultation</NavLink>
+                      </li>
+                      <li>
+                        <NavLink>Share Your Requirements</NavLink>
+                      </li>
+                      <li>
+                        <NavLink>
+                          Talk to a Designer Who Understands You
+                        </NavLink>
+                      </li>
+                    </ul>
+                  </p>
                 </div>
               </div>
               {/* GALLERY CONTENT END */}
