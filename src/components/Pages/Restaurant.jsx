@@ -5,9 +5,9 @@ import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
 
-var bnrimg = require("./../../images/services/bar/banner.webp");
-var bgimg1 = require("./../../images/services/bar/bg1.webp");
-var bgimg2 = require("./../../images/services/bar/bg2.webp");
+var bnrimg = require("./../../images/services/restaurant/banner.webp");
+var bgimg1 = require("./../../images/services/restaurant/bg1.webp");
+var bgimg2 = require("./../../images/services/restaurant/bg2.webp");
 
 class Restaurant extends React.Component {
   render() {
@@ -420,32 +420,43 @@ class Restaurant extends React.Component {
                             className="m-t10 sx-tilte"
                             style={{ fontSize: "24px" }}
                           >
-                            3. Comfort And Arrangement of Seats
+                            3. Making a Theme and Style
                           </h3>
-                          <p>A bar should never feel small or uncomfortable.</p>
+
                           <p>
                             <ul className="list-angle-right anchor-line">
-                              We make seating areas like:
+                              If you want:
                               <li>
-                                <NavLink>Counter seating</NavLink>
+                                <NavLink>Minimalist modern</NavLink>
                               </li>
                               <li>
-                                <NavLink>Lounge seating</NavLink>
+                                <NavLink>Wooden rustic</NavLink>
                               </li>
                               <li>
-                                <NavLink>Booth seating</NavLink>
+                                <NavLink>Business</NavLink>
                               </li>
                               <li>
-                                <NavLink>High tables</NavLink>
+                                <NavLink>Old-fashioned</NavLink>
                               </li>
                               <li>
-                                <NavLink>Private corner seating</NavLink>
+                                <NavLink>Luxury with style</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Casual like a café</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Indo-global mix</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Traditional Indian-style</NavLink>
                               </li>
                             </ul>
 
                             <p>
-                              Every seat should be comfortable and have a good
-                              view of the bar.
+                              We don't just make the theme look good; we also
+                              give it emotional depth.
+                              <br />
+                              The goal is to make the restaurant feel alive.
                             </p>
                           </p>
                         </div>
@@ -455,37 +466,43 @@ class Restaurant extends React.Component {
                             className="m-t10 sx-tilte"
                             style={{ fontSize: "24px" }}
                           >
-                            4. Sound Control and Music Acoustics
+                            4. Decor And Style For The Inside
                           </h3>
                           <p>
-                            Bars need good sound quality to keep people awake
-                            without making them feel too loud.
+                            Decorating is not just about filling space.
+                            <br />
+                            It's about adding small, personal touches that make
+                            the restaurant feel like home.
                           </p>
                           <p>
                             <ul className="list-angle-right anchor-line">
                               We use:
                               <li>
-                                <NavLink>Acoustic panels</NavLink>
+                                <NavLink>Warm colors</NavLink>
                               </li>
                               <li>
-                                <NavLink>Parts that spread sound</NavLink>
+                                <NavLink>Textures on the walls</NavLink>
                               </li>
                               <li>
-                                <NavLink>
-                                  Correct placement of the speaker
-                                </NavLink>
+                                <NavLink>Plants</NavLink>
                               </li>
                               <li>
-                                <NavLink>
-                                  Soft things to make the noise less loud
-                                </NavLink>
+                                <NavLink>Art</NavLink>
                               </li>
                               <li>
-                                <NavLink>
-                                  Guests are happy when the sound is good
-                                </NavLink>
+                                <NavLink>Mirrors</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Natural materials</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Soft shapes</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Subtle accents</NavLink>
                               </li>
                             </ul>
+                            <p>Everything is put in place on purpose.</p>
                           </p>
                         </div>
                         <div>
@@ -493,46 +510,31 @@ class Restaurant extends React.Component {
                             className="m-t10 sx-tilte"
                             style={{ fontSize: "24px" }}
                           >
-                            5. Decor And Visual Identity That Fit The Theme
+                            5. Design Of The Bar And Drink Station
                           </h3>
-                          <p>Your bar needs to have a personality.</p>
+                          <p>
+                            If your restaurant has a bar, you should pay extra
+                            attention to it.
+                          </p>
                           <p>
                             <ul className="list-angle-right anchor-line">
-                              We help you come up with your theme:
+                              We make bars that are:
                               <li>
-                                <NavLink>Modern</NavLink>
+                                <NavLink>Stylish</NavLink>
                               </li>
                               <li>
-                                <NavLink>Retro</NavLink>
+                                <NavLink>Welcoming</NavLink>
                               </li>
                               <li>
-                                <NavLink>Industrial</NavLink>
+                                <NavLink>Comfortable</NavLink>
                               </li>
                               <li>
-                                <NavLink>Rustic</NavLink>
-                              </li>
-                              <li>
-                                <NavLink>Vintage</NavLink>
-                              </li>
-                              <li>
-                                <NavLink>Minimal</NavLink>
-                              </li>
-                              <li>
-                                <NavLink>Luxury</NavLink>
-                              </li>
-                              <li>
-                                <NavLink>Neon</NavLink>
-                              </li>
-                              <li>
-                                <NavLink>Dark</NavLink>
-                              </li>
-                              <li>
-                                <NavLink>Artistic</NavLink>
+                                <NavLink>Easy to use</NavLink>
                               </li>
                             </ul>
                             <p>
-                              After we decide on a theme, we create an interior
-                              identity around it.
+                              People should naturally want to look at a bar,
+                              like it's a magnet.
                             </p>
                           </p>
                         </div>
@@ -541,28 +543,32 @@ class Restaurant extends React.Component {
                             className="m-t10 sx-tilte"
                             style={{ fontSize: "24px" }}
                           >
-                            6. Design For Outdoor And Rooftop Bars
+                            6. Planning The Back Of The Kitchen
                           </h3>
                           <p>
-                            We design a rooftop:
+                            The back end has to work well for the restaurant to
+                            run smoothly.
+                          </p>
+                          <p>
                             <ul className="list-angle-right anchor-line">
+                              We plan the following:
                               <li>
-                                <NavLink>Lounges</NavLink>
+                                <NavLink>Flow of the kitchen</NavLink>
                               </li>
                               <li>
-                                <NavLink>Outdoor bars</NavLink>
+                                <NavLink>Area for washing</NavLink>
                               </li>
                               <li>
-                                <NavLink>Café-bar hybrids</NavLink>
+                                <NavLink>Storage</NavLink>
                               </li>
                               <li>
-                                <NavLink>Open seating areas</NavLink>
+                                <NavLink>Movement of staff</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Safety and ventilation</NavLink>
                               </li>
                             </ul>
-                            <p>
-                              These areas make guests' experiences
-                              unforgettable.
-                            </p>
+                            <p>Guests are happy when staff are happy.</p>
                           </p>
                         </div>
                         <div>
@@ -570,12 +576,17 @@ class Restaurant extends React.Component {
                             className="m-t10 sx-tilte"
                             style={{ fontSize: "24px" }}
                           >
-                            7. Design Of The Washroom and Utility Zone
+                            7. Design for an outdoor or rooftop restaurant
                           </h3>
+                          <p>We can make magic happen in an open space.</p>
                           <p>
-                            The bathrooms in a pub say a lot about its style and
-                            cleanliness. We create clean, stylish, and useful
-                            bathrooms that fit your brand.
+                            Lighting on the roof...
+                            <br />
+                            Soft chairs... <br /> A warm breeze...
+                          </p>
+                          <p>
+                            The mood was just right for the evening. <br />{" "}
+                            There aren't many more beautiful things.
                           </p>
                         </div>
                         <div>
@@ -583,16 +594,19 @@ class Restaurant extends React.Component {
                             className="m-t10 sx-tilte"
                             style={{ fontSize: "24px" }}
                           >
-                            8. Turnkey Bar Interior Solutions
+                            8. Turnkey Restaurant Interior Design
                           </h3>
                           <p>
-                            We take care of everything:
+                            You don't have to deal with more than one vendor.
+                          </p>
+                          <p>
+                            We handle everything:
                             <ul className="list-angle-right anchor-line">
                               <li>
-                                <NavLink>Work on the house</NavLink>
+                                <NavLink>3D designs</NavLink>
                               </li>
                               <li>
-                                <NavLink>Carpentry</NavLink>
+                                <NavLink>Furniture</NavLink>
                               </li>
                               <li>
                                 <NavLink>Electrical work</NavLink>
@@ -607,21 +621,20 @@ class Restaurant extends React.Component {
                                 <NavLink>Floors</NavLink>
                               </li>
                               <li>
-                                <NavLink>Furniture</NavLink>
+                                <NavLink>Painting</NavLink>
                               </li>
                               <li>
                                 <NavLink>Decor</NavLink>
                               </li>
                               <li>
-                                <NavLink>Planning the bar equipment</NavLink>
+                                <NavLink>Planning the kitchen</NavLink>
                               </li>
                               <li>
                                 <NavLink>Final styling</NavLink>
                               </li>
                             </ul>
                             <p>
-                              You get a bar that is completely ready without any
-                              stress.
+                              Everything is done carefully and consistently.
                             </p>
                           </p>
                         </div>
@@ -632,7 +645,7 @@ class Restaurant extends React.Component {
                           className="m-t30 sx-tilte"
                           style={{ fontSize: "32px" }}
                         >
-                          Our Design Process is Human-Centered And Stress-Free
+                          Our Process for Designing with People in Mind
                         </h2>
 
                         <div>
@@ -640,11 +653,11 @@ class Restaurant extends React.Component {
                             className="m-t10 sx-tilte"
                             style={{ fontSize: "24px" }}
                           >
-                            Step 1: Getting to know your vision
+                            Step 1: Getting to Know Your Vision
                           </h3>
                           <p>
-                            We talk to you to learn about your bar idea, the
-                            kind of guests you want, and your brand.
+                            We sit down with you and learn about your story,
+                            your dream, and what makes your restaurant unique.
                           </p>
                         </div>
 
@@ -653,11 +666,11 @@ class Restaurant extends React.Component {
                             className="m-t10 sx-tilte"
                             style={{ fontSize: "24px" }}
                           >
-                            Step 2: Planning the layout and space
+                            Step 2: Making Plans and Ideas
                           </h3>
                           <p>
-                            We design layouts that work well for staff and make
-                            guests feel comfortable.
+                            We come up with ideas for layouts, themes, and
+                            moods.
                           </p>
                         </div>
                         <div>
@@ -665,9 +678,11 @@ class Restaurant extends React.Component {
                             className="m-t10 sx-tilte"
                             style={{ fontSize: "24px" }}
                           >
-                            Step 3: Visualising the 3D Design
+                            Step 3: Make 3D Designs
                           </h3>
-                          <p>You can see your bar before it is built.</p>
+                          <p>
+                            You can see the whole look before we start working.
+                          </p>
                         </div>
 
                         <div>
@@ -675,35 +690,20 @@ class Restaurant extends React.Component {
                             className="m-t10 sx-tilte"
                             style={{ fontSize: "24px" }}
                           >
-                            Step 4: Choosing the materials and lighting
+                            Step 4: Do it
                           </h3>
-                          <p>
-                            We pick out colours, textures, lights, and fixtures
-                            that go with your theme.
-                          </p>
+                          <p>Everything is made with care and love.</p>
                         </div>
                         <div>
                           <h3
                             className="m-t10 sx-tilte"
                             style={{ fontSize: "24px" }}
                           >
-                            Step 5: Full Execution
+                            Step 5: The Last Setup
                           </h3>
                           <p>
-                            Our trained staff makes everything exactly as
-                            promised.
-                          </p>
-                        </div>
-                        <div>
-                          <h3
-                            className="m-t10 sx-tilte"
-                            style={{ fontSize: "24px" }}
-                          >
-                            Step 6: Final Touches
-                          </h3>
-                          <p>
-                            We add plants, decorations, lighting balance, and
-                            finishing touches.
+                            Balance of decor and lighting, warm touches.
+                            Everything looks great.
                           </p>
                         </div>
                       </div>
@@ -711,7 +711,7 @@ class Restaurant extends React.Component {
                         className="m-t30 sx-tilte"
                         style={{ fontSize: "28px" }}
                       >
-                        Why Bars Choose Us as Their Interior Design Partner
+                        Why Do Restaurants Believe Us
                       </h2>
                       <div className="single-service-list">
                         <div className="row">
@@ -719,28 +719,29 @@ class Restaurant extends React.Component {
                             <ul className="list-angle-right anchor-line">
                               <li>
                                 <NavLink>
-                                  More than 20 years of experience in designing
-                                  bars.
+                                  We care about how you feel, not just how you
+                                  look.
                                 </NavLink>
                               </li>
                               <li>
                                 <NavLink>
-                                  A deep understanding of how guests think.
+                                  We care about how our guests feel.
                                 </NavLink>
                               </li>
                               <li>
                                 <NavLink>
-                                  Safe, useful, and long-lasting solutions.
+                                  We don't just design for looks; we also design
+                                  for comfort.
                                 </NavLink>
                               </li>
                               <li>
                                 <NavLink>
-                                  Making a warm, memorable atmosphere.
+                                  We build a strong brand image.
                                 </NavLink>
                               </li>
                               <li>
                                 <NavLink>
-                                  Design that saves space and makes money.
+                                  Talking to each other in a friendly way.
                                 </NavLink>
                               </li>
                             </ul>
@@ -748,33 +749,25 @@ class Restaurant extends React.Component {
                           <div className="col-lg-6 col-md-12">
                             <ul className="list-angle-right anchor-line">
                               <li>
+                                <NavLink>Doing things on time.</NavLink>
+                              </li>
+                              <li>
+                                <NavLink>Service from start to finish.</NavLink>
+                              </li>
+                              <li>
                                 <NavLink>
-                                  Clear pricing and friendly communication.
+                                  Designs that make you feel at home.
                                 </NavLink>
                               </li>
                               <li>
                                 <NavLink>
-                                  Execution that is reliable and turnkey.
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink>
-                                  Interiors that are both stylish and
-                                  comfortable.
-                                </NavLink>
-                              </li>
-                              <li>
-                                <NavLink>
-                                  A strong focus on who the brand is.
+                                  We don't just make the inside of a restaurant.
                                 </NavLink>
                               </li>
                             </ul>
                           </div>
                         </div>
-                        <p>
-                          We don't just make bars; we make places where people
-                          feel alive.
-                        </p>
+                        <p>We make a space that people will remember.</p>
                       </div>
                       <div className="sx-media sx-img-effect zoom-slow">
                         <div className="sx-thum-bx sx-img-overlay1 sx-img-effect yt-thum-box">
@@ -803,8 +796,8 @@ class Restaurant extends React.Component {
                               href="#collapseOne5"
                               data-parent="#accordion5"
                             >
-                              What is the cost of designing the inside of a pub
-                              in Delhi?
+                              How much does it cost to design the inside of a
+                              restaurant in Delhi?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -818,9 +811,10 @@ class Restaurant extends React.Component {
                           <div className="acod-content p-a15">
                             <p>
                               {" "}
-                              Prices vary based on the size, furniture,
-                              lighting, decor, and theme. After we know what you
-                              need, we give you a full quote.
+                              It depends on how big, what the theme is, what
+                              materials are used, and how hard it is. After we
+                              understand what you need, we send you a clear
+                              quote.
                             </p>
                           </div>
                         </div>
@@ -834,7 +828,8 @@ class Restaurant extends React.Component {
                               className="collapsed"
                               data-parent="#accordion5"
                             >
-                              Do you make plans for small and medium-sized bars?
+                              How long does it take to work on the inside of a
+                              restaurant?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -844,8 +839,8 @@ class Restaurant extends React.Component {
                         <div id="collapseTwo5" className="acod-body collapse">
                           <div className="acod-content p-a15">
                             <p>
-                              Yes, we make all kinds of bars, like cafés,
-                              lounges, pubs, rooftop bars, and boutique bars.
+                              It usually takes 5 to 12 weeks, but it depends on
+                              the size.
                             </p>
                           </div>
                         </div>
@@ -859,8 +854,7 @@ class Restaurant extends React.Component {
                               className="collapsed"
                               data-parent="#accordion5"
                             >
-                              How long does it take to finish the inside of a
-                              bar?
+                              Do you make cloud kitchens and small cafés?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -870,8 +864,9 @@ class Restaurant extends React.Component {
                         <div id="collapseThree5" className="acod-body collapse">
                           <div className="acod-content p-a15">
                             <p>
-                              It usually takes 5 to 10 weeks, but this depends
-                              on how hard it is and how much space there is.
+                              Yes, we design cafés, small restaurants, fine
+                              dining rooms, and restaurants with more than one
+                              floor.
                             </p>
                           </div>
                         </div>
@@ -885,7 +880,7 @@ class Restaurant extends React.Component {
                               className="collapsed"
                               data-parent="#accordion5"
                             >
-                              Do you give 3D designs before you start working?
+                              Will you help me pick out furniture?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -894,7 +889,10 @@ class Restaurant extends React.Component {
                         </div>
                         <div id="collapseFour5" className="acod-body collapse">
                           <div className="acod-content p-a15">
-                            <p>Yes, we offer full 3D visualisation.</p>
+                            <p>
+                              Yes, of course. We choose everything, from the
+                              chairs and tables to the lighting and decor.
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -907,7 +905,7 @@ class Restaurant extends React.Component {
                               className="collapsed"
                               data-parent="#accordion5"
                             >
-                              Are you able to design based on a certain theme?
+                              Do you take care of the whole project?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -917,8 +915,8 @@ class Restaurant extends React.Component {
                         <div id="collapseFive5" className="acod-body collapse">
                           <div className="acod-content p-a15">
                             <p>
-                              Yes, for sure. Any theme you need: modern, rustic,
-                              minimal, luxury, or industrial.
+                              Yes. We offer full-service restaurant interior
+                              design.
                             </p>
                           </div>
                         </div>
@@ -932,7 +930,8 @@ class Restaurant extends React.Component {
                               className="collapsed"
                               data-parent="#accordion5"
                             >
-                              Do you take care of the whole project?
+                              Are you able to design with a certain theme in
+                              mind?
                               <span className="indicator">
                                 <i className="fa" />
                               </span>
@@ -942,7 +941,8 @@ class Restaurant extends React.Component {
                         <div id="collapseSix5" className="acod-body collapse">
                           <div className="acod-content p-a15">
                             <p>
-                              Yes. We offer full-service bar interior design.
+                              Yes, of course. We can make any theme you can
+                              think of come to life.
                             </p>
                           </div>
                         </div>
@@ -950,29 +950,27 @@ class Restaurant extends React.Component {
                     </div>
                   </div>
                   <h2 className="m-t10 sx-tilte" style={{ fontSize: "24px" }}>
-                    Are You Ready To Make a Bar That People Will Love?
+                    Are You Ready To Open a Restaurant That People Will Love?
                   </h2>
                   <p>
-                    Great interiors make for nights you'll never forget.
+                    A restaurant is more than just a place to eat.
                     <br />
-                    Customers who have great nights will come back.
-                    <br />
-                    Let's make a bar that feels alive, welcoming, and
-                    emotionally moving.
+                    People make memories, celebrate events, and find comfort
+                    there.
                   </p>
                   <p>
                     <ul className="list-angle-right anchor-line">
+                      Let's make a space that is warm, soulful, and
+                      unforgettable.
                       <li>
-                        <NavLink>
-                          Get a Free Consultation for Your Bar Interior
-                        </NavLink>
+                        <NavLink>Set up a friendly meeting</NavLink>
                       </li>
                       <li>
-                        <NavLink>Get a Custom Quote</NavLink>
+                        <NavLink> ask for a custom quote, and</NavLink>
                       </li>
                       <li>
                         <NavLink>
-                          Talk to Our Bar Interior Design Expert
+                          Call our restaurant interior expert today
                         </NavLink>
                       </li>
                     </ul>
