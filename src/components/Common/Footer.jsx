@@ -52,7 +52,10 @@ class Footer extends React.Component {
                           src={require("./../../images/footer-logo.png")}
                           alt="Ang Indesign"
                           style={{
-                            borderRadius:"50%"
+                            borderRadius:"50%",
+                            width: "80px",
+                            height: "80px",
+                            objectFit: "cover",
                           }}
                         />
                       </NavLink>
@@ -61,7 +64,9 @@ class Footer extends React.Component {
                       Ang Indesign creates innovative, sustainable interior spaces that elevate modern living.
                     </p>
                     <ul className="social-icons sx-social-links">
-                      <li>
+                      <li 
+                      style={{marginRight:"24px"}}
+                      >
                         <a
                           href=" https://www.facebook.com/profile.php?id=61583491048812"
                           className="fa fa-facebook"
@@ -69,7 +74,9 @@ class Footer extends React.Component {
                           rel="noreferrer"
                         ></a>
                       </li>
-                      <li>
+                      <li
+                       style={{marginRight:"24px"}}
+                       >
                         <a
                           href="https://www.linkedin.com/company/angindesign/"
                           className="fa fa-linkedin"
