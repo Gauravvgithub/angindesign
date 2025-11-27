@@ -5,6 +5,7 @@ import Banner from "./../Elements/Banner";
 import GoogleMapReact from "google-map-react";
 import axios from "axios";
 import toast from "react-hot-toast";
+import { NavLink } from "react-router-dom";
 
 var bnrimg = require("./../../images/banner/18.jpg");
 
@@ -82,7 +83,6 @@ class ContactUs extends React.Component {
                 <div className="row">
                   <div className="col-lg-8 col-md-12 col-sm-12">
                     {/* FORM */}
-
                     <form
                       className="contact-form cons-contact-form bg-gray p-a30"
                       method="post"
@@ -174,6 +174,212 @@ class ContactUs extends React.Component {
                         </div>
                       </div>
                     </form>
+                    <div className="p-b40 m-t50">
+                      <h2 className="m-t0">We are here to help you</h2>
+                      <p>
+                        We are here to help you in a calm, clear, and focused
+                        way. Don't worry if you're not sure what to do first
+                        when planning your interiors. You can reach out anytime
+                        for design help, project guidance, materials, or simply
+                        to talk about your space.
+                      </p>
+
+                      <p>
+                        We answer honestly, clearly, and with a personal
+                        touch—exactly how it should be.
+                      </p>
+
+                      <p>
+                        Our team will contact you soon with clear, practical
+                        advice.
+                      </p>
+
+                      <h3 className="m-t20">Why People Like Working With Us</h3>
+                      <ul className="list-angle-right anchor-line">
+                        <li>
+                          <NavLink>Polite and friendly communication</NavLink>
+                        </li>
+                        <li>
+                          {" "}
+                          <NavLink>No pressure or sales tactics</NavLink>
+                        </li>
+                        <li>
+                          <NavLink>Clear answers to every question</NavLink>
+                        </li>
+                        <li>
+                          <NavLink>Helpful suggestions</NavLink>
+                        </li>
+                        <li>
+                          <NavLink>Personal attention for each client</NavLink>
+                        </li>
+                        <li>
+                          <NavLink>A team that genuinely cares</NavLink>
+                        </li>
+                      </ul>
+
+                      <h3 className="m-t20">Frequently Asked Questions</h3>
+                      <div
+                        className="sx-accordion acc-bg-gray m-b30"
+                        id="accordion5"
+                      >
+                        {/* Q1 */}
+                        <div className="panel sx-panel">
+                          <div className="acod-head acc-actives">
+                            <h6 className="acod-title">
+                              <a
+                                data-toggle="collapse"
+                                href="#faqOne"
+                                data-parent="#accordion5"
+                              >
+                                When will I hear back?
+                                <span className="indicator">
+                                  <i className="fa" />
+                                </span>
+                              </a>
+                            </h6>
+                          </div>
+                          <div id="faqOne" className="acod-body collapse show">
+                            <div className="acod-content p-a15">
+                              <p>
+                                Most of the time, within a few hours — sometimes
+                                even sooner.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Q2 */}
+                        <div className="panel sx-panel">
+                          <div className="acod-head">
+                            <h6 className="acod-title">
+                              <a
+                                data-toggle="collapse"
+                                href="#faqTwo"
+                                className="collapsed"
+                                data-parent="#accordion5"
+                              >
+                                Is it possible to schedule a free consultation?
+                                <span className="indicator">
+                                  <i className="fa" />
+                                </span>
+                              </a>
+                            </h6>
+                          </div>
+                          <div id="faqTwo" className="acod-body collapse">
+                            <div className="acod-content p-a15">
+                              <p>
+                                Yes, we do offer a free consultation to help you
+                                plan your interiors before any work starts.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Q3 */}
+                        <div className="panel sx-panel">
+                          <div className="acod-head">
+                            <h6 className="acod-title">
+                              <a
+                                data-toggle="collapse"
+                                href="#faqThree"
+                                className="collapsed"
+                                data-parent="#accordion5"
+                              >
+                                Do I have to show you a floor plan?
+                                <span className="indicator">
+                                  <i className="fa" />
+                                </span>
+                              </a>
+                            </h6>
+                          </div>
+                          <div id="faqThree" className="acod-body collapse">
+                            <div className="acod-content p-a15">
+                              <p>
+                                If you have one, that’s great! If not, no
+                                worries — we can still help you with your
+                                requirements.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Q4 */}
+                        <div className="panel sx-panel">
+                          <div className="acod-head">
+                            <h6 className="acod-title">
+                              <a
+                                data-toggle="collapse"
+                                href="#faqFour"
+                                className="collapsed"
+                                data-parent="#accordion5"
+                              >
+                                Is there a minimum size for the project?
+                                <span className="indicator">
+                                  <i className="fa" />
+                                </span>
+                              </a>
+                            </h6>
+                          </div>
+                          <div id="faqFour" className="acod-body collapse">
+                            <div className="acod-content p-a15">
+                              <p>
+                                No. We work on all kinds of projects — small,
+                                medium, or large.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* Q5 */}
+                        <div className="panel sx-panel">
+                          <div className="acod-head">
+                            <h6 className="acod-title">
+                              <a
+                                data-toggle="collapse"
+                                href="#faqFive"
+                                className="collapsed"
+                                data-parent="#accordion5"
+                              >
+                                Is it possible to set up a site visit?
+                                <span className="indicator">
+                                  <i className="fa" />
+                                </span>
+                              </a>
+                            </h6>
+                          </div>
+                          <div id="faqFive" className="acod-body collapse">
+                            <div className="acod-content p-a15">
+                              <p>
+                                Yes, site visits can be arranged after the
+                                initial discussion.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <h3 className="m-t20">Let’s Get in Touch</h3>
+                      <p>
+                        Interior design becomes simple when you have a patient,
+                        knowledgeable, and professional guide. We are here to
+                        make everything smooth and enjoyable.
+                      </p>
+
+                      <ul className="list-angle-right anchor-line">
+                        <li>
+                          {" "}
+                          <NavLink>Send Us a Message</NavLink>
+                        </li>
+                        <li>
+                          {" "}
+                          <NavLink>Ask for a Callback</NavLink>
+                        </li>
+                        <li>
+                          {" "}
+                          <NavLink>Talk to a Design Expert Today</NavLink>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
 
                   <div className="col-lg-4 col-md-12 col-sm-12">
