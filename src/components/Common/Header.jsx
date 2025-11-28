@@ -2,7 +2,7 @@ import React from "react";
 import Navigation from "../Common/Navigation";
 import { NavLink } from "react-router-dom";
 import bnr from "./../../images/background/bg-map.png";
-import logo1 from "./../../images/logo-1.png";
+import logo1 from "./../../images/logo-1.webp";
 
 class Header extends React.Component {
   constructor(props) {

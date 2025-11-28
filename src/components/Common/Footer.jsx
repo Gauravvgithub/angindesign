@@ -49,7 +49,7 @@ class Footer extends React.Component {
                     <div className="logo-footer clearfix p-b15">
                       <NavLink to={"./"}>
                         <img
-                          src={require("./../../images/footer-logo.png")}
+                          src={require("./../../images/footer-logo.webp")}
                           alt="Ang Indesign"
                           style={{
                             borderRadius:"50%",
