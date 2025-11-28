@@ -4,16 +4,16 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
-import img1 from "../../images/about-slider/1.jpg";
-import img2 from "../../images/about-slider/2.jpg";
-import img3 from "../../images/about-slider/3.jpg";
-import img4 from "../../images/about-slider/4.jpg";
-import img5 from "../../images/about-slider/5.jpg";
-import img6 from "../../images/about-slider/6.jpg";
+import img1 from "../../images/about-slider/1.webp";
+import img2 from "../../images/about-slider/2.webp";
+import img3 from "../../images/about-slider/3.webp";
+import img4 from "../../images/about-slider/4.webp";
+import img5 from "../../images/about-slider/5.webp";
+import img6 from "../../images/about-slider/6.webp";
 
 import bgimg1 from "../../images/background/bg-4.png";
 import bgimg2 from "../../images/background/cross-line2.png";
-import aboutAb from "../../images/about-slider/1-ab.jpg"; // for bottom image
+import aboutAb from "../../images/about-slider/1-ab.webp"; // for bottom image
 
 const images = [img1, img2, img3, img4, img5, img6];
 

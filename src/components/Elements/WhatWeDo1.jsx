@@ -36,7 +36,7 @@ class WhatWeDo1 extends React.Component {
                 <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
                   <div className="number-block-one animate-in-to-top">
                     <img
-                      src={require("./../../images/pic1.jpg")}
+                      src={require("./../../images/pic1.webp")}
                       alt=""
                       style={{ borderRadius: "20px" }}
                     />
@@ -54,7 +54,7 @@ class WhatWeDo1 extends React.Component {
                 <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
                   <div className="number-block-one animate-in-to-top">
                     <img
-                      src={require("./../../images/pic2.jpg")}
+                      src={require("./../../images/pic2.webp")}
                       alt=""
                       style={{ borderRadius: "20px" }}
                     />
@@ -72,7 +72,7 @@ class WhatWeDo1 extends React.Component {
                 <div className="col-lg-4 col-md-6 col-sm-6 m-b30">
                   <div className="number-block-one animate-in-to-top">
                     <img
-                      src={require("./../../images/pic3.jpg")}
+                      src={require("./../../images/pic3.webp")}
                       alt=""
                       style={{ borderRadius: "20px" }}
                     />
