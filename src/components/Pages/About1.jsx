@@ -3,8 +3,8 @@ import Header from "./../Common/Header";
 import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import About2 from "./../Elements/About2";
-import Achievements1 from "./../Elements/Achievements1";
-import WhatWeDo1 from "../Elements/WhatWeDo1";
+// import Achievements1 from "./../Elements/Achievements1";
+// import WhatWeDo1 from "../Elements/WhatWeDo1";
 import Testimonials2 from "../Elements/Testimonials2";
 
 var bnrimg = require("./../../images/banner/5.jpg");
@@ -40,8 +40,8 @@ class About1 extends React.Component {
             bgimage={bnrimg}
           />
           <About2 />
-          <WhatWeDo1 />
-          <Achievements1 />
+          {/* <WhatWeDo1 />
+          <Achievements1 /> */}
           <Testimonials2 separatoralignment="separator-left" />
         </div>
         <Footer />
