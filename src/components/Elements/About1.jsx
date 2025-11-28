@@ -59,25 +59,14 @@ class About1 extends React.Component {
               <div className="col-lg-5 col-md-12 col-sm-12">
                 <div className="about-home-left">
                   <h3 className="m-t0 sx-tilte">
-                    We Create Inspiring & Functional Interior Design Solutions
+                    The Best Interior Designer in Delhi Thoughtful interiors for
+                    modern life
                   </h3>
                   <p>
-                    At <strong>ANG Interior Design</strong>, we specialize in
-                    transforming spaces into elegant and functional
-                    environments. Our expertise covers a wide range of projects
-                    — from <strong>residential homes</strong> and{" "}
-                    <strong>commercial offices</strong>
-                    to <strong>restaurants, salons, bars</strong>, and{" "}
-                    <strong>consultancy spaces</strong>.
-                    <br />
-                    <br />
-                    We also provide complete{" "}
-                    <strong>furniture solutions</strong> including{" "}
-                    <strong>
-                      modular kitchens, wardrobes, beds, study tables,
-                    </strong>
-                    and <strong>temples</strong> — all customized to suit your
-                    taste, lifestyle, and space requirements.
+                    At <b>Angin Design</b>, we design interiors that are comfortable,
+                    useful, and well-balanced. As a reliable interior designer
+                    in Delhi, we focus on clean planning, smart layouts, and
+                    simple, timeless designs that fit in with your daily life.
                   </p>
                   <div className="text-left">
                     <NavLink
@@ -97,9 +86,9 @@ class About1 extends React.Component {
                     {...options}
                   >
                     {images.map((item, index) => (
-                      <div className="item" key={index} >
+                      <div className="item" key={index}>
                         <div className="sx-img-effect zoom-slow">
-                          <NavLink to="/about" >
+                          <NavLink to="/about">
                             <img src={item} alt="" />
                           </NavLink>
                         </div>

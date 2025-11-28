@@ -14,16 +14,16 @@ const categoryMap = {
   consultancy: "cat-7",
 };
 
-const filters = [
-  { label: "All", value: "*" },
-  { label: "Residential", value: ".cat-1" },
-  { label: "Commercial", value: ".cat-2" },
-  { label: "Office", value: ".cat-3" },
-  { label: "Restaurant", value: ".cat-4" },
-  { label: "Salon", value: ".cat-5" },
-  { label: "Bar", value: ".cat-6" },
-  { label: "Consultancy", value: ".cat-7" },
-];
+// const filters = [
+//   { label: "All", value: "*" },
+//   { label: "Residential", value: ".cat-1" },
+//   { label: "Commercial", value: ".cat-2" },
+//   { label: "Office", value: ".cat-3" },
+//   { label: "Restaurant", value: ".cat-4" },
+//   { label: "Salon", value: ".cat-5" },
+//   { label: "Bar", value: ".cat-6" },
+//   { label: "Consultancy", value: ".cat-7" },
+// ];
 
 const Projects1 = () => {
   const [services, setServices] = useState([]);
@@ -93,7 +93,7 @@ const Projects1 = () => {
             </div>
 
             {/* FILTER BUTTONS */}
-            <div className="filter-wrap p-b30 text-center">
+            {/* <div className="filter-wrap p-b30 text-center">
               <ul className="filter-navigation masonry-filter clearfix">
                 <li className="active">
                   <NavLink to="#" className="btn from-top" data-filter="*">
@@ -113,10 +113,10 @@ const Projects1 = () => {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
 
             {/* GRID */}
-            <ul className="masonry-outer row work-grid clearfix list-unstyled grid-5">
+            <ul className=" row work-grid clearfix list-unstyled grid-5">
               {services.length > 0 ? (
                 services.map((item, index) => {
                   const category = item.category?.toLowerCase();

@@ -63,10 +63,10 @@ const services = [
   },
   {
     count: "08",
-    title: "Modular Wooden Work",
+    title: "MODULAR KITCHEN & WARDROBE",
     link: "/services/modular-wooden-work",
     icon: <FiLayers size={50} />,
-    description: "Complete modular wooden work solutions...",
+    description: "Best interior designer in delhi offer best kitchen designing...",
   },
 ];
 

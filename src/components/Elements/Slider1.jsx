@@ -47,7 +47,7 @@ class Slider1 extends React.Component {
                 data-easein="default"
                 data-easeout="default"
                 data-masterspeed={300}
-                data-thumb={require("./../../images/main-slider/slider1/slide3.jpg")}
+                data-thumb={require("./../../images/main-slider/slider1/slide3.webp")}
                 data-rotate={0}
                 data-saveperformance="off"
                 data-title
@@ -65,7 +65,7 @@ class Slider1 extends React.Component {
               >
                 {/* MAIN IMAGE */}
                 <img
-                  src={require("./../../images/main-slider/slider1/slide3.jpg")}
+                  src={require("./../../images/main-slider/slider1/slide3.webp")}
                   alt=""
                   data-bgcolor="#f8f8f8"
                   style={{}}
@@ -131,7 +131,7 @@ class Slider1 extends React.Component {
                     textTransform: "uppercase",
                   }}
                 >
-                  Variety
+                  Residential Interior
                 </div>
                 {/* LAYER 4  Bold Title*/}
                 <div
@@ -163,7 +163,7 @@ class Slider1 extends React.Component {
                     fontFamily: '"Poppins", sans-serif',
                   }}
                 >
-                  Flooring for Any Interior site
+                  Design Based on Lifestyle
                 </div>
                 {/* LAYER 5  Paragraph*/}
                 <div
@@ -194,8 +194,8 @@ class Slider1 extends React.Component {
                     fontFamily: '"Poppins", sans-serif',
                   }}
                 >
-                  Right design and right ideas matter a lot of in interior
-                  design business. a style that makes a statement.
+                  Every design choice is made with your comfort, habits, and
+                  daily life in mind.
                 </div>
                 {/* LAYER 6  Read More*/}
                 <div
@@ -220,7 +220,10 @@ class Slider1 extends React.Component {
                   data-paddingleft="[0,0,0,0]"
                   style={{ zIndex: 9, lineHeight: 30 }}
                 >
-                  <NavLink to={"#"} className="site-button btn-half">
+                  <NavLink
+                    to={"/services/residential"}
+                    className="site-button btn-half"
+                  >
                     <span> Read More</span>
                   </NavLink>
                 </div>
@@ -295,7 +298,7 @@ class Slider1 extends React.Component {
                 data-easein="default"
                 data-easeout="default"
                 data-masterspeed={300}
-                data-thumb={require("./../../images/main-slider/slider1/slide1.jpg")}
+                data-thumb={require("./../../images/main-slider/slider1/slide1.webp")}
                 data-rotate={0}
                 data-saveperformance="off"
                 data-title
@@ -313,7 +316,7 @@ class Slider1 extends React.Component {
               >
                 {/* MAIN IMAGE */}
                 <img
-                  src={require("./../../images/main-slider/slider1/slide1.jpg")}
+                  src={require("./../../images/main-slider/slider1/slide1.webp")}
                   alt=""
                   data-bgcolor="#f8f8f8"
                   style={{}}
@@ -379,7 +382,7 @@ class Slider1 extends React.Component {
                     textTransform: "uppercase",
                   }}
                 >
-                  Modish
+                  Modular Wooden Work
                 </div>
                 {/* LAYER 4  Bold Title*/}
                 <div
@@ -411,7 +414,7 @@ class Slider1 extends React.Component {
                     fontFamily: '"Poppins", sans-serif',
                   }}
                 >
-                  Highest Quality Kitchen Solutions
+                  Execution from start to finish
                 </div>
                 {/* LAYER 5  Paragraph*/}
                 <div
@@ -442,8 +445,8 @@ class Slider1 extends React.Component {
                     fontFamily: '"Poppins", sans-serif',
                   }}
                 >
-                  Right design and right ideas matter a lot of in interior
-                  design business. a style that makes a statement.
+                  Our team takes care of everything, from planning and 3D design
+                  to carpentry and finishing.
                 </div>
                 {/* LAYER 6  Read More*/}
                 <div
@@ -468,7 +471,10 @@ class Slider1 extends React.Component {
                   data-paddingleft="[0,0,0,0]"
                   style={{ zIndex: 9, lineHeight: 30 }}
                 >
-                  <NavLink to={"#"} className="site-button btn-half">
+                  <NavLink
+                    to={"/services/modular-wooden-work"}
+                    className="site-button btn-half"
+                  >
                     <span> Read More</span>
                   </NavLink>
                 </div>
@@ -543,7 +549,7 @@ class Slider1 extends React.Component {
                 data-easein="default"
                 data-easeout="default"
                 data-masterspeed={300}
-                data-thumb={require("./../../images/main-slider/slider1/slide2.jpg")}
+                data-thumb={require("./../../images/main-slider/slider1/slide2.webp")}
                 data-rotate={0}
                 data-saveperformance="off"
                 data-title
@@ -561,7 +567,7 @@ class Slider1 extends React.Component {
               >
                 {/* MAIN IMAGE */}
                 <img
-                  src={require("./../../images/main-slider/slider1/slide2.jpg")}
+                  src={require("./../../images/main-slider/slider1/slide2.webp")}
                   alt=""
                   data-bgcolor="#f8f8f8"
                   style={{}}
@@ -627,7 +633,7 @@ class Slider1 extends React.Component {
                     textTransform: "uppercase",
                   }}
                 >
-                  Reliable
+                  Commercial Interiors
                 </div>
                 {/* LAYER 4  Bold Title*/}
                 <div
@@ -659,7 +665,7 @@ class Slider1 extends React.Component {
                     fontFamily: '"Poppins", sans-serif',
                   }}
                 >
-                  Professionals you can rely on
+                  Professional and Clear
                 </div>
                 {/* LAYER 5  Paragraph*/}
                 <div
@@ -690,8 +696,8 @@ class Slider1 extends React.Component {
                     fontFamily: '"Poppins", sans-serif',
                   }}
                 >
-                  Right design and right ideas matter a lot of in interior
-                  design business. a style that makes a statement.
+                  We make sure that the process goes smoothly, is
+                  well-organized, and is easy to understand.
                 </div>
                 {/* LAYER 6  Read More*/}
                 <div
