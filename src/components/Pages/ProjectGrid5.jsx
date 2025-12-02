@@ -273,12 +273,12 @@
 
 // export default ProjectGrid5;
 
-
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import Header from "../Common/Header";
 import Footer from "../Common/Footer";
 import Banner from "../Elements/Banner";
+import { Helmet } from "react-helmet-async";
 
 import { useGetProjectsQuery } from "../../store/servicesApi";
 
@@ -328,6 +328,33 @@ const ProjectGrid5 = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Interior Projects in Delhi | ANG InDesign</title>
+        <meta
+          name="description"
+          content="View residential, commercial and office interior projects designed by ANG InDesign. Creative layouts, modern themes and premium finishing."
+        />
+        <meta
+          name="keywords"
+          content="interior projects delhi, completed interiors, ang indesign projects"
+        />
+
+        {/* <link rel="canonical" href="https://angindesign.vercel.app/projects"/> */}
+
+        <meta property="og:title" content="Interior Projects | ANG InDesign" />
+        <meta
+          property="og:description"
+          content="Browse completed home and commercial interior design projects in Delhi."
+        />
+        {/* <meta property="og:url" content="https://angindesign.vercel.app/projects"/> */}
+
+        <meta name="twitter:title" content="Interior Projects" />
+        <meta
+          name="twitter:description"
+          content="Modern interior work done across Delhi by ANG InDesign."
+        />
+      </Helmet>
+
       <Header />
 
       <div className="page-content">
@@ -422,7 +449,9 @@ const ProjectGrid5 = () => {
 
                         <div className="sx-info p-t20 text-white">
                           <h4 className="sx-tilte">{item.service_title}</h4>
-                          <p className="m-b0 text-capitalize">{item.category}</p>
+                          <p className="m-b0 text-capitalize">
+                            {item.category}
+                          </p>
                         </div>
 
                         {/* POPUPS */}

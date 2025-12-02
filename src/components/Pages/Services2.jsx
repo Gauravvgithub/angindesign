@@ -3,7 +3,7 @@ import Header from "./../Common/Header";
 import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import Services1 from "./../Elements/Services1";
-import About3 from './../Elements/About3';
+// import About3 from './../Elements/About3';
 import Statistics1 from "./../Elements/Statistics1";
 import Testimonials2 from "./../Elements/Testimonials2";
 
@@ -22,7 +22,7 @@ class Service2 extends React.Component {
             bgimage={bnrimg}
           />
           <Services1 />
-          <About3 bgcolor="bg-white" />
+          {/* <About3 bgcolor="bg-white" /> */}
           <Statistics1 />
           <Testimonials2 separatoralignment="separator-left" />
         </div>
