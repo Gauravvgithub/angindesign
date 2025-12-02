@@ -3,9 +3,8 @@ import Header from "./../Common/Header";
 import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import About2 from "./../Elements/About2";
-// import Achievements1 from "./../Elements/Achievements1";
-// import WhatWeDo1 from "../Elements/WhatWeDo1";
 import Testimonials2 from "../Elements/Testimonials2";
+import { Helmet } from "react-helmet-async";
 
 var bnrimg = require("./../../images/banner/5.jpg");
 
@@ -31,6 +30,41 @@ class About1 extends React.Component {
   render() {
     return (
       <>
+        <Helmet>
+          <title>About ANG InDesign | Best Interior Designers in Delhi</title>
+          <meta
+            name="description"
+            content="Discover the story behind ANG InDesign, one of Delhi’s most trusted interior design studios delivering modern, functional and elegant spaces."
+          />
+          <meta
+            name="keywords"
+            content="about ang indesign, interior design studio delhi, interior designer profile"
+          />
+
+          {/* <link rel="canonical" href="https://angindesign.vercel.app/about" /> */}
+
+          {/* <!-- OG --> */}
+          <meta
+            property="og:title"
+            content="About ANG InDesign | Best Interior Designers in Delhi"
+          />
+          <meta
+            property="og:description"
+            content="Learn about ANG InDesign’s commitment to modern, functional and creative interior design solutions in Delhi."
+          />
+          {/* <meta
+            property="og:url"
+            content="https://angindesign.vercel.app/about"
+          /> */}
+          <meta property="og:type" content="profile" />
+
+          {/* <!-- Twitter --> */}
+          <meta name="twitter:title" content="About ANG InDesign" />
+          <meta
+            name="twitter:description"
+            content="Delhi’s trusted interior design studio crafting modern & stylish spaces."
+          />
+        </Helmet>
         <Header />
         <div className="page-content">
           <Banner
@@ -40,8 +74,6 @@ class About1 extends React.Component {
             bgimage={bnrimg}
           />
           <About2 />
-          {/* <WhatWeDo1 />
-          <Achievements1 /> */}
           <Testimonials2 separatoralignment="separator-left" />
         </div>
         <Footer />
