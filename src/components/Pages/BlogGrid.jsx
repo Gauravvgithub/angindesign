@@ -185,7 +185,7 @@
 
 // export default BlogGrid;
 
-import  { useState } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Header from "./../Common/Header";
 import Footer from "./../Common/Footer";
@@ -233,7 +233,7 @@ const BlogGrid = () => {
   return (
     <>
       {isLoading || isFetching ? (
-        <Loader />
+        " "
       ) : (
         <>
           <Header />
