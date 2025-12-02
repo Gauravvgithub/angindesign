@@ -3,6 +3,7 @@ import Header from "./../Common/Header";
 import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import Gallery1 from "../Elements/Gallery";
+import { Helmet } from "react-helmet-async";
 
 var bnrimg = require("./../../images/banner/11.jpg");
 
@@ -28,6 +29,38 @@ class Gallery extends React.Component {
   render() {
     return (
       <>
+        <Helmet>
+          <title>Interior Design Gallery | ANG InDesign Delhi</title>
+          <meta
+            name="description"
+            content="Explore ANG InDesign’s interior design gallery featuring luxury home, office, restaurant and commercial spaces crafted with creativity and precision."
+          />
+          <meta
+            name="keywords"
+            content="interior gallery delhi, design gallery, interior portfolio"
+          />
+
+          {/* <link rel="canonical" href="https://angindesign.vercel.app/gallery" /> */}
+
+          <meta
+            property="og:title"
+            content="Interior Design Gallery | ANG InDesign"
+          />
+          <meta
+            property="og:description"
+            content="Browse stunning interior designs created for homes and commercial spaces in Delhi."
+          />
+          {/* <meta
+            property="og:url"
+            content="https://angindesign.vercel.app/gallery"
+          /> */}
+
+          <meta name="twitter:title" content="Interior Design Gallery" />
+          <meta
+            name="twitter:description"
+            content="Luxury interiors designed by ANG InDesign for homes and commercial spaces."
+          />
+        </Helmet>
         <Header />
         <div className="page-content">
           <Banner
