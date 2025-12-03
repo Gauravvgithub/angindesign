@@ -6,6 +6,7 @@ import GoogleMapReact from "google-map-react";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 var bnrimg = require("./../../images/banner/18.jpg");
 
@@ -68,6 +69,32 @@ class ContactUs extends React.Component {
 
     return (
       <>
+        <helmet>
+          <title>Contact ANG InDesign | Book Interior Consultation</title>
+          <meta
+            name="description"
+            content="Contact ANG InDesign for expert residential and commercial interior design services in Delhi. Book your design consultation today."
+          />
+          <meta
+            name="keywords"
+            content="interior designer contact, ang indesign contact, interior design consultation delhi"
+          />
+
+          {/* <link rel="canonical" href="https://angindesign.vercel.app/contact-us"> */}
+
+          <meta property="og:title" content="Contact ANG InDesign" />
+          <meta
+            property="og:description"
+            content="Book a consultation with Delhi’s trusted interior designers."
+          />
+          {/* <meta property="og:url" content="https://angindesign.vercel.app/contact-us"> */}
+
+          <meta name="twitter:title" content="Contact ANG InDesign" />
+          <meta
+            name="twitter:description"
+            content="Book your interior design meeting with ANG InDesign."
+          />
+        </helmet>
         <Header />
         <div className="page-content">
           <Banner
