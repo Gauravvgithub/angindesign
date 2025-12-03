@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Home1 from "./Pages/Home1";
 import About1 from "./Pages/About1";
 import Gallery from "./Pages/Gallery";
@@ -56,7 +56,7 @@ class Components extends React.Component {
             <Route path="/blogs/:slug" element={<BlogSingle />} />
             <Route path="/faq" element={<Faq />} />
             <Route path="/contact-us" element={<ContactUs />} />
-            <Route element={<Error />} />
+           <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </div>
       </BrowserRouter>

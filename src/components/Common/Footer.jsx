@@ -268,7 +268,7 @@ const Footer = () => {
                   <ul className="social-icons sx-social-links">
                     <li style={{ marginRight: "24px" }}>
                       <a
-                        href=" https://www.facebook.com/profile.php?id=61583491048812"
+                        href="https://www.facebook.com/angindesign"
                         className="fa fa-facebook"
                         target="_blank"
                         rel="noreferrer"
@@ -276,7 +276,7 @@ const Footer = () => {
                     </li>
                     <li style={{ marginRight: "24px" }}>
                       <a
-                        href="https://www.linkedin.com/company/angindesign/"
+                        href="https://www.linkedin.com/company/angindesign"
                         className="fa fa-linkedin"
                         target="_blank"
                         rel="noreferrer"
