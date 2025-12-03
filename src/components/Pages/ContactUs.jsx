@@ -69,7 +69,7 @@ class ContactUs extends React.Component {
 
     return (
       <>
-        <helmet>
+        <Helmet>
           <title>Contact ANG InDesign | Book Interior Consultation</title>
           <meta
             name="description"
@@ -94,7 +94,7 @@ class ContactUs extends React.Component {
             name="twitter:description"
             content="Book your interior design meeting with ANG InDesign."
           />
-        </helmet>
+        </Helmet>
         <Header />
         <div className="page-content">
           <Banner

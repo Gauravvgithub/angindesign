@@ -264,7 +264,7 @@ const BlogGrid = () => {
       </Helmet>
 
       {isLoading || isFetching ? (
-        " "
+        <p className="text-center w-100">Loading projects...</p>
       ) : (
         <>
           <Header />

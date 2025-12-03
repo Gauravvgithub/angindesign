@@ -4,6 +4,7 @@ import Header from "./../Common/Header";
 import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
+import { Helmet } from "react-helmet-async";
 
 var bnrimg = require("./../../images/services/residential/banner.webp");
 var bgimg1 = require("./../../images/services/residential/bg1.webp");
@@ -13,6 +14,39 @@ class Residential extends React.Component {
   render() {
     return (
       <>
+        <Helmet>
+          <title>
+            Best Residential Interior Designer in Delhi | ANG InDesign
+          </title>
+          <meta
+            name="description"
+            content="Looking for a residential interior designer in Delhi? ANG InDesign creates stylish, modern and customized home interiors for every lifestyle."
+          />
+          <meta
+            name="keywords"
+            content="residential interior designer delhi, home interior, ang indesign"
+          />
+
+          {/* <link rel="canonical" href="https://angindesign.vercel.app/services/residential"> */}
+
+          <meta
+            property="og:title"
+            content="Residential Interior Designer in Delhi"
+          />
+          <meta
+            property="og:description"
+            content="Modern, stylish and custom home interiors by ANG InDesign."
+          />
+
+          <meta
+            name="twitter:title"
+            content="Residential Interior Designer Delhi"
+          />
+          <meta
+            name="twitter:description"
+            content="Elegant home interiors crafted to your lifestyle."
+          />
+        </Helmet>
         <Header />
         <div className="page-content">
           <Banner
@@ -26,7 +60,8 @@ class Residential extends React.Component {
             <div className="container">
               {/* GALLERY CONTENT START */}
               <div className="row">
-                <div className="col-lg-4 col-md-12 sticky_column"
+                <div
+                  className="col-lg-4 col-md-12 sticky_column"
                   // style={{
                   //   position: "sticky",
                   //   top: "120px",
@@ -34,7 +69,7 @@ class Residential extends React.Component {
                   //   height: "fit-content",
                   //   zIndex: 5,
                   // }}
-                  >
+                >
                   <div className="about4-section m-b20 bg-gray p-a20">
                     <div className="widget widget_services">
                       <h4 className="widget-title">More Services</h4>
