@@ -64,7 +64,7 @@
 //                       Ang Indesign creates innovative, sustainable interior spaces that elevate modern living.
 //                     </p>
 //                     <ul className="social-icons sx-social-links">
-//                       <li 
+//                       <li
 //                       style={{marginRight:"24px"}}
 //                       >
 //                         <a
@@ -227,7 +227,6 @@
 
 // export default Footer;
 
-
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Switcher from "../Elements/Switcher";
@@ -320,15 +319,18 @@ const Footer = () => {
                         <div key={blog._id} className="widget-post clearfix">
                           <div className="sx-post-date text-center text-uppercase text-white">
                             <strong className="p-date">{day}</strong>
-                            <span className="p-month">{month}</span>
+                            <span
+                              className="p-month"
+                              style={{ marginRight: "6px" }}
+                            >
+                              {month}
+                            </span>
                             <span className="p-year">{year}</span>
                           </div>
                           <div className="sx-post-info">
                             <div className="sx-post-header">
                               <h6 className="post-title">
-                                <NavLink
-                                  to={`/blogs/${blog.blog_title_url}`}
-                                >
+                                <NavLink to={`/blogs/${blog.blog_title_url}`}>
                                   {blog.blog_title}
                                 </NavLink>
                               </h6>
