@@ -27,7 +27,8 @@ import ModularWoodenWork from "./Pages/Modular-wooden-work";
 class Components extends React.Component {
   render() {
     return (
-      <BrowserRouter basename="/">
+      // <BrowserRouter basename="/">
+      <>
         <ScrollToTop />
         <div className="page-wraper">
           <Routes>
@@ -59,7 +60,8 @@ class Components extends React.Component {
            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </div>
-      </BrowserRouter>
+        </>
+      // </BrowserRouter>
     );
   }
 }
