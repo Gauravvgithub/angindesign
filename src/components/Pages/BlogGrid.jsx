@@ -191,6 +191,7 @@ import Header from "./../Common/Header";
 import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import Loader from "../Elements/Loader";
+import { Helmet } from "react-helmet-async";
 
 import { useGetBlogsQuery } from "../../store/servicesApi";
 
@@ -232,6 +233,36 @@ const BlogGrid = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Interior Design Blogs & Tips | ANG InDesign Delhi</title>
+        <meta
+          name="description"
+          content="Read interior design tips, trends and inspiration from ANG InDesign. Stay updated with modern styles for homes & commercial spaces in Delhi."
+        />
+        <meta
+          name="keywords"
+          content="interior design blog delhi, decor tips, home interior blogs"
+        />
+
+        {/* <link rel="canonical" href="https://angindesign.vercel.app/blogs"> */}
+
+        <meta
+          property="og:title"
+          content="Interior Design Blog | ANG InDesign"
+        />
+        <meta
+          property="og:description"
+          content="Explore interior design trends and expert ideas for stylish spaces."
+        />
+        {/* <meta property="og:url" content="https://angindesign.vercel.app/blogs"> */}
+
+        <meta name="twitter:title" content="Interior Design Blog" />
+        <meta
+          name="twitter:description"
+          content="Latest interior design tips and inspiration from experts."
+        />
+      </Helmet>
+
       {isLoading || isFetching ? (
         " "
       ) : (
