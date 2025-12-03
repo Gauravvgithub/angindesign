@@ -4,6 +4,7 @@ import Header from "./../Common/Header";
 import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
+import { Helmet } from "react-helmet-async";
 
 var bnrimg = require("./../../images/services/salon/banner.webp");
 var bgimg1 = require("./../../images/services/salon/bg1.webp");
@@ -13,6 +14,14 @@ class Salon extends React.Component {
   render() {
     return (
       <>
+        <Helmet>
+          <title>Salon Interior Designer in Delhi | ANG InDesign</title>
+          <meta
+            name="description"
+            content="Build a stylish, modern and luxurious salon with professional interior designers in Delhi. Smart layouts and premium finishing."
+          />
+          {/* <link rel="canonical" href="https://angindesign.vercel.app/services/salon"> */}
+        </Helmet>
         <Header />
         <div className="page-content">
           <Banner

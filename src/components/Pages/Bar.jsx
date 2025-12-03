@@ -4,6 +4,7 @@ import Header from "./../Common/Header";
 import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
+import { Helmet } from "react-helmet-async";
 
 var bnrimg = require("./../../images/services/bar/banner.webp");
 var bgimg1 = require("./../../images/services/bar/bg1.webp");
@@ -13,6 +14,14 @@ class Bar extends React.Component {
   render() {
     return (
       <>
+        <Helmet>
+          <title>Bar & Lounge Interior Designer in Delhi | ANG InDesign</title>
+          <meta
+            name="description"
+            content="Create a premium bar or lounge ambience with Delhi’s expert interior designers. Unique themes, lighting and luxury design solutions."
+          />
+          {/* <link rel="canonical" href="https://angindesign.vercel.app/services/bar"> */}
+        </Helmet>
         <Header />
         <div className="page-content">
           <Banner

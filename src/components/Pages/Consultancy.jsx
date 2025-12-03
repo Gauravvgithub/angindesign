@@ -4,6 +4,7 @@ import Header from "./../Common/Header";
 import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
+import { Helmet } from "react-helmet-async";
 
 var bnrimg = require("./../../images/services/consultancy/banner.webp");
 var bgimg1 = require("./../../images/services/consultancy/bg1.webp");
@@ -13,6 +14,14 @@ class Consultancy extends React.Component {
   render() {
     return (
       <>
+        <Helmet>
+          <title>Interior Design Consultancy in Delhi | ANG InDesign</title>
+          <meta
+            name="description"
+            content="Professional interior design consultancy for planning, concepts, materials and complete project guidance. Expert help for all design needs."
+          />
+          {/* <link rel="canonical" href="https://angindesign.vercel.app/services/consultancy"> */}
+        </Helmet>
         <Header />
         <div className="page-content">
           <Banner

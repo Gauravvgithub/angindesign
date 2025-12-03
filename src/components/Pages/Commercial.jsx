@@ -4,6 +4,7 @@ import Header from "./../Common/Header";
 import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
+import { Helmet } from "react-helmet-async";
 
 var bnrimg = require("./../../images/services/commercial/banner.webp");
 var bgimg1 = require("./../../images/services/commercial/bg1.webp");
@@ -13,6 +14,21 @@ class Commercial extends React.Component {
   render() {
     return (
       <>
+        <Helmet>
+          <title>
+            Top Commercial Interior Designer in Delhi | ANG InDesign
+          </title>
+          <meta
+            name="description"
+            content="Transform your showroom or commercial space with Delhi’s top commercial interior designers. Modern, functional and brand-focused designs."
+          />
+          <meta
+            name="keywords"
+            content="commercial interior designer delhi, retail design, showroom interior"
+          />
+
+          {/* <link rel="canonical" href="https://angindesign.vercel.app/services/commercial"> */}
+        </Helmet>
         <Header />
         <div className="page-content">
           <Banner

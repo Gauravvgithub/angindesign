@@ -4,6 +4,7 @@ import Header from "./../Common/Header";
 import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
+import { Helmet } from "react-helmet-async";
 
 var bnrimg = require("./../../images/services/office/banner.webp");
 var bgimg1 = require("./../../images/services/office/bg1.webp");
@@ -13,6 +14,19 @@ class Office extends React.Component {
   render() {
     return (
       <>
+        <Helmet>
+          <title>Modern Office Interior Designer in Delhi | ANG InDesign</title>
+          <meta
+            name="description"
+            content="Create a smart, productive and modern office with Delhi’s best office interior designers. Premium workspace design for all business sizes."
+          />
+          <meta
+            name="keywords"
+            content="office interior designer delhi, corporate interiors"
+          />
+
+          {/* <link rel="canonical" href="https://angindesign.vercel.app/services/office"> */}
+        </Helmet>
         <Header />
         <div className="page-content">
           <Banner

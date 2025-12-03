@@ -4,6 +4,7 @@ import Header from "./../Common/Header";
 import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import ReactPlayer from "react-player";
+import { Helmet } from "react-helmet-async";
 
 var bnrimg = require("./../../images/services/modularWoodenWork/banner.webp");
 var bgimg1 = require("./../../images/services/modularWoodenWork/bg1.webp");
@@ -13,6 +14,14 @@ class modularWoodenWork extends React.Component {
   render() {
     return (
       <>
+        <Helmet>
+          <title>Modular Kitchen & Wooden Work in Delhi | ANG InDesign</title>
+          <meta
+            name="description"
+            content="Premium modular kitchens, wardrobes and wooden interior work designed with perfection. Customised carpentry solutions in Delhi."
+          />
+          {/* <link rel="canonical" href="https://angindesign.vercel.app/services/modular-wooden-work"> */}
+        </Helmet>
         <Header />
         <div className="page-content">
           <Banner
