@@ -4,128 +4,134 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Google Tag Manager -->
-      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-NHMTLGKS');</script>
-    <!-- End Google Tag Manager -->
+    <!-- Preconnect for faster font + GTM load -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+    <link rel="preconnect" href="https://connect.facebook.net" />
 
+    <!-- GOOGLE TAG MANAGER -->
+    <script defer>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-NHMTLGKS");
+    </script>
 
-    <!-- Meta Pixel Code -->
-      <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '1601842701251344');
-      fbq('track', 'PageView');
-      </script>
-      
-   <!-- End Meta Pixel Code -->
+    <!-- META PIXEL -->
+    <script defer>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
 
+      fbq("init", "1601842701251344");
+      fbq("track", "PageView");
+    </script>
 
+    <!-- FAVICONS -->
     <link rel="icon" href="/favicon.png" />
-    <meta name="theme-color" content="#000000" />
     <link rel="apple-touch-icon" href="/favicon.png" />
+    <meta name="theme-color" content="#000000" />
 
-    <!-- <link rel="manifest" href="/manifest.json" /> -->
-
-    <!-- <title>ANG InDesign Interior Designer</title> -->
-
-    <!-- BOOTSTRAP STYLE SHEET -->
+    <!-- CSS FILES -->
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-    <!-- BOOTSTRAP SELECT BOX STYLE SHEET -->
     <link rel="stylesheet" href="/assets/css/bootstrap-select.min.css" />
-    <!-- FONTAWESOME STYLE SHEET -->
-    <link
-      rel="stylesheet"
-      href="/assets/css/fontawesome/css/font-awesome.min.css"
-    />
-    <!-- OWL CAROUSEL STYLE SHEET -->
+
+    <!-- IMPORTANT: Icons not visible? This fixes it -->
+    <link rel="stylesheet" href="/assets/css/fontawesome/css/font-awesome.min.css" />
+
     <link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
-    <!-- MAGNIFIC POPUP STYLE SHEET -->
     <link rel="stylesheet" href="/assets/css/magnific-popup.min.css" />
-    <!-- LOADER STYLE SHEET -->
     <link rel="stylesheet" href="/assets/css/loader.min.css" />
-    <!-- FLATICON STYLE SHEET -->
     <link rel="stylesheet" href="/assets/css/flaticon.min.css" />
     <link rel="stylesheet" href="/assets/css/bootstrap-slider.min.css" />
-    <!-- MAIN STYLE SHEET -->
     <link rel="stylesheet" href="/assets/css/style.css" />
-    <!-- Side Switcher Css-->
     <link rel="stylesheet" href="/assets/css/switcher.css" />
-    <!-- REVOLUTION SLIDER CSS -->
-    <link
-      rel="stylesheet"
-      href="/assets/plugins/revolution/revolution/css/settings.css"
-    />
-    <link
-      rel="stylesheet"
-      href="/assets/plugins/revolution/revolution/css/navigation.css"
-    />
-    <link
-      rel="stylesheet"
-      href="/assets/plugins/revolution-addons/beforeafter/css/revolution.addon.beforeafter.css"
-    />
 
-    <!-- Google Fonts -->
+    <!-- REVOLUTION SLIDER CSS -->
+    <link rel="stylesheet" href="/assets/plugins/revolution/revolution/css/settings.css" />
+    <link rel="stylesheet" href="/assets/plugins/revolution/revolution/css/navigation.css" />
+    <link rel="stylesheet" href="/assets/plugins/revolution-addons/beforeafter/css/revolution.addon.beforeafter.css" />
+
+    <!-- OPTIMIZED GOOGLE FONTS -->
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
     />
   </head>
 
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHMTLGKS"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    <!-- NOSCRIPT -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHMTLGKS"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
 
-        <!-- Meta Pixel Code -->
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1601842701251344&ev=PageView&noscript=1"
-      /></noscript>
-        <!-- End Meta Pixel Code -->
-    
+    <noscript>
+      <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1601842701251344&ev=PageView&noscript=1"/>
+    </noscript>
+
     <div id="root"></div>
 
-
-
-    <!-- JAVASCRIPT FILES -->
+    <!-- JS FILES - ALL DEFERRED (NO UI BREAK) -->
     <script src="/assets/js/jquery-1.12.4.min.js"></script>
-    <script src="/assets/js/popper.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/magnific-popup.min.js"></script>
-    <script src="/assets/js/waypoints.min.js"></script>
-    <script src="/assets/js/counterup.min.js"></script>
-    <script src="/assets/js/waypoints-sticky.min.js"></script>
-    <script src="/assets/js/isotope.pkgd.min.js"></script>
-    <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="/assets/js/owl.carousel.min.js"></script>
-    <script src="/assets/js/jquery.owl-filter.js"></script>
-    <script src="/assets/js/stellar.min.js"></script>
-    <script src="/assets/js/custom.js"></script>
-    <script src="/assets/js/jquery.bgscroll.js"></script>
-    <script src="/assets/js/theia-sticky-sidebar.js"></script>
-    <script src="/assets/js/bootstrap-select.min.js"></script>
-    <script src="/assets/js/bootstrap-slider.min.js"></script>
-    <script src="/assets/js/jquery.bootstrap-touchspin.js"></script>
 
-    <script src="/assets/plugins/revolution/revolution-addons/reveal/js/revolution.addon.revealer.min.js"></script>
-    <script src="/assets/plugins/revolution/revolution-addons/typewriter/js/revolution.addon.typewriter.min.js"></script>
+    <!-- these must load immediately after jQuery -->
+    <script defer src="/assets/js/popper.min.js"></script>
+    <script defer src="/assets/js/bootstrap.min.js"></script>
+
+    <script defer src="/assets/js/magnific-popup.min.js"></script>
+    <script defer src="/assets/js/waypoints.min.js"></script>
+    <script defer src="/assets/js/counterup.min.js"></script>
+    <script defer src="/assets/js/waypoints-sticky.min.js"></script>
+    <script defer src="/assets/js/isotope.pkgd.min.js"></script>
+    <script defer src="/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script defer src="/assets/js/owl.carousel.min.js"></script>
+    <script defer src="/assets/js/jquery.owl-filter.js"></script>
+    <script defer src="/assets/js/stellar.min.js"></script>
+    <script defer src="/assets/js/custom.js"></script>
+    <script defer src="/assets/js/jquery.bgscroll.js"></script>
+    <script defer src="/assets/js/theia-sticky-sidebar.js"></script>
+    <script defer src="/assets/js/bootstrap-select.min.js"></script>
+    <script defer src="/assets/js/bootstrap-slider.min.js"></script>
+    <script defer src="/assets/js/jquery.bootstrap-touchspin.js"></script>
+
+    <!-- REVOLUTION SLIDER (must NOT use defer or slider breaks) -->
     <script src="/assets/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js"></script>
     <script src="/assets/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="/assets/plugins/revolution/revolution/js/extensions/revolution-plugin.js"></script>
-    <script src="/assets/js/rev-script-1.js"></script>
-    <script src="/assets/plugins/revolution-addons/beforeafter/js/revolution.addon.beforeafter.min.js"></script>
 
-    <!-- Your React App entry -->
+    <!-- ADDONS -->
+    <script defer src="/assets/plugins/revolution/revolution-addons/reveal/js/revolution.addon.revealer.min.js"></script>
+    <script defer src="/assets/plugins/revolution/revolution-addons/typewriter/js/revolution.addon.typewriter.min.js"></script>
+    <script defer src="/assets/plugins/revolution/revolution/js/extensions/revolution-plugin.js"></script>
+    <script defer src="/assets/plugins/revolution-addons/beforeafter/js/revolution.addon.beforeafter.min.js"></script>
+
+    <!-- Slider Init -->
+    <script defer src="/assets/js/rev-script-1.js"></script>
+
+    <!-- REACT APP -->
     <script type="module" src="/src/index.jsx"></script>
   </body>
 </html>

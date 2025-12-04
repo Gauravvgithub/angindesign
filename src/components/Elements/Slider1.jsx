@@ -803,7 +803,7 @@ class Slider1 extends React.Component {
                 </li>
                 <li>
                   <a
-                    href=" https://www.instagram.com/ang_indesign"
+                    href=" https://www.instagram.com/ang_indesign/"
                     target="_blank"
                     className="sx-title-swip"
                   >
@@ -812,7 +812,7 @@ class Slider1 extends React.Component {
                 </li>
                 <li>
                   <a
-                    href="https://www.facebook.com/profile.php?id=61583491048812"
+                    href="https://www.facebook.com/angindesign/"
                     target="_blank"
                     className="sx-title-swip"
                   >
