@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./../Common/Header";
 import Footer from "./../Common/Footer";
-import Slider1 from "./../Elements/Slider1";
+// import Slider1 from "./../Elements/Slider1";
 import About1 from "./../Elements/About1";
 import WhatWeDo1 from "./../Elements/WhatWeDo1";
 import Testimonials1 from "./../Elements/Testimonials1";
@@ -48,7 +48,7 @@ class Home1 extends React.Component {
         </Helmet>
         <Header />
         <div className="page-content">
-          <Slider1 />
+          {/* <Slider1 /> */}
           <About1 />
           <WhatWeDo1 />
           <Testimonials1 />
