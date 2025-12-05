@@ -397,12 +397,12 @@ const Footer = () => {
               {/* LEFT SIDE */}
               <div className="col-md-6">
                 <p className="text-sm mb-0" style={{ color: "#fff" }}>
-                  <a
-                    href="/"
+                  <NavLink
+                    to={"/"}
                     style={{ color: "#D7B38C", textDecoration: "none" }}
                   >
                     Ang Indesign
-                  </a>{" "}
+                  </NavLink>{" "}
                   - Copyright {new Date().getFullYear()}. All rights reserved.
                   <br />
                   Managed and Developed By{" "}
@@ -434,8 +434,8 @@ const Footer = () => {
                   style={{ gap: "15px" }}
                 >
                   {/* Terms */}
-                  <a
-                    href="/terms-and-conditions"
+                  <NavLink
+                    to={"/terms-and-conditions"}
                     style={{
                       color: "#D7B38C",
                       fontWeight: 500,
@@ -451,13 +451,13 @@ const Footer = () => {
                       style={{ marginRight: "5px" }}
                     ></i>
                     Terms & Conditions
-                  </a>
+                  </NavLink>
 
                   <span style={{ color: "#D7B38C", opacity: 0.7 }}>|</span>
 
                   {/* Privacy */}
-                  <a
-                    href="/privacy-policy"
+                  <NavLink
+                    to={"/privacy-policy"}
                     style={{
                       color: "#D7B38C",
                       fontWeight: 500,
@@ -473,13 +473,13 @@ const Footer = () => {
                       style={{ marginRight: "5px" }}
                     ></i>
                     Privacy Policy
-                  </a>
+                  </NavLink>
 
                   <span style={{ color: "#D7B38C", opacity: 0.7 }}>|</span>
 
                   {/* Disclaimer */}
-                  <a
-                    href="/disclaimer"
+                  <NavLink
+                    to={"/disclaimer"}
                     style={{
                       color: "#D7B38C",
                       fontWeight: 500,
@@ -495,7 +495,7 @@ const Footer = () => {
                       style={{ marginRight: "5px" }}
                     ></i>
                     Disclaimer
-                  </a>
+                  </NavLink>
                 </div>
               </div>
             </div>
