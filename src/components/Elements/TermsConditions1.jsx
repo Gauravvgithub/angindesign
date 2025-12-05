@@ -51,8 +51,15 @@ const TermsConditions1 = () => {
         <div className="mt-4">
           <p>
             Please read these Terms and Conditions ("Terms," "Terms of Service")
-            carefully before using the website https://angindesign.com/ (the
-            "Service," "Site") operated by ANG Indesign ("us," "we," or "our").
+            carefully before using the website{" "}
+            <b>
+              {" "}
+              <a href="https://angindesign.com/" target="_blank">
+                https://angindesign.com
+              </a>{" "}
+            </b>{" "}
+            (the "Service," "Site") operated by ANG Indesign ("us," "we," or
+            "our").
           </p>
 
           <p>
@@ -74,9 +81,14 @@ const TermsConditions1 = () => {
           <ul className="list-group mb-4">
             <li className="list-group-item">
               <strong>Service:</strong> Refers to the website
-              (https://angindesign.com) and the professional interior design,
-              consultation, project management, and related services offered by
-              ANG Indesign.
+              <b>
+                {" "}
+                <a href="https://angindesign.com/" target="_blank">
+                  https://angindesign.com
+                </a>{" "}
+              </b>{" "}
+              and the professional interior design, consultation, project
+              management, and related services offered by ANG Indesign.
             </li>
             <li className="list-group-item">
               <strong>Client ("You"):</strong> Any individual, business, or
@@ -152,7 +164,7 @@ const TermsConditions1 = () => {
           <h5 className="fw-bold mt-3">3.3. Late Payments</h5>
           <p>
             Invoices unpaid beyond the agreed-upon due date may be subject to a
-            late fee of [Insert Percentage]% per month or the maximum rate
+            late fee of 3% per month or the maximum rate
             permitted by law, whichever is lower. ANG Indesign reserves the
             right to suspend all services, including design work and site
             visits, until all outstanding invoices are settled.

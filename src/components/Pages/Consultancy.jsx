@@ -70,14 +70,14 @@ class Consultancy extends React.Component {
               {/* GALLERY CONTENT START */}
               <div className="row">
                 <div
-                  className="col-lg-4 col-md-12"
-                  style={{
-                    position: "sticky",
-                    top: "120px",
-                    alignSelf: "flex-start",
-                    height: "fit-content",
-                    zIndex: 5,
-                  }}
+                  className="col-lg-4 col-md-12 sticky_column"
+                  // style={{
+                  //   position: "sticky",
+                  //   top: "120px",
+                  //   alignSelf: "flex-start",
+                  //   height: "fit-content",
+                  //   zIndex: 5,
+                  // }}
                 >
                   <div className="about4-section m-b20 bg-gray p-a20">
                     <div className="widget widget_services">
