@@ -239,7 +239,7 @@ const Footer = () => {
     <>
       <footer className="site-footer footer-large footer-dark footer-wide">
         {/* FOOTER BLOCKS START */}
-        <div className="footer-top overlay-wraper">
+        <div className="footer-top overlay-wraper" style={{marginBottom:"-90px"}}>
           <div className="overlay-main" />
           <div className="container">
             <div className="row">
@@ -360,6 +360,9 @@ const Footer = () => {
                     </li>
                     <li>
                       <NavLink to={"/services"}>Services</NavLink>
+                    </li>
+                    <li>
+                      <NavLink to={"/gallery"}>Our Gallery</NavLink>
                     </li>
                     <li>
                       <NavLink to={"/projects"}>Projects</NavLink>
