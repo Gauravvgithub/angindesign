@@ -23,6 +23,7 @@ import Bar from "./Pages/Bar";
 import Consultancy from "./Pages/Consultancy";
 import Restaurant from "./Pages/Restaurant";
 import ModularWoodenWork from "./Pages/Modular-wooden-work";
+import TermsConditions from "./Pages/TermsConditions";
 
 class Components extends React.Component {
   render() {
@@ -57,6 +58,9 @@ class Components extends React.Component {
             <Route path="/blogs/:slug" element={<BlogSingle />} />
             <Route path="/faq" element={<Faq />} />
             <Route path="/contact-us" element={<ContactUs />} />
+            <Route path="/terms-and-conditions" element={ <TermsConditions/>}/>
+            <Route path="/privacy-policy" element={ <TermsConditions/>}/>
+            <Route path="/disclaimer" element={ <TermsConditions/>}/>
            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </div>

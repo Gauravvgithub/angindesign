@@ -393,11 +393,15 @@ const Footer = () => {
         <div className="footer-bottom overlay-wraper">
           <div className="overlay-main" />
           <div className="container">
-            <div className="row">
-              <div className="sx-footer-bot-left">
-                <p className="text-sm">
-                  <a href="/">
-                    <span style={{ color: "#D7B38C" }}>Ang Indesign</span>
+            <div className="row d-flex justify-content-between align-items-center py-2">
+              {/* LEFT SIDE */}
+              <div className="col-md-6">
+                <p className="text-sm mb-0" style={{ color: "#fff" }}>
+                  <a
+                    href="/"
+                    style={{ color: "#D7B38C", textDecoration: "none" }}
+                  >
+                    Ang Indesign
                   </a>{" "}
                   - Copyright {new Date().getFullYear()}. All rights reserved.
                   <br />
@@ -406,13 +410,93 @@ const Footer = () => {
                     href="https://nationalmarketingprojects.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="color-red font-semibold hover:underline color-red"
+                    style={{
+                      color: "#D7B38C",
+                      fontWeight: 600,
+                      textDecoration: "none",
+                    }}
+                    onMouseEnter={(e) =>
+                      (e.target.style.textDecoration = "underline")
+                    }
+                    onMouseLeave={(e) =>
+                      (e.target.style.textDecoration = "none")
+                    }
                   >
-                    <span style={{ color: "#D7B38C" }}>
-                      National Marketing Projects
-                    </span>
+                    National Marketing Projects
                   </a>
                 </p>
+              </div>
+
+              {/* RIGHT LINKS */}
+              <div className="col-md-6 text-end">
+                <div
+                  className="d-inline-flex align-items-center"
+                  style={{ gap: "15px" }}
+                >
+                  {/* Terms */}
+                  <a
+                    href="/terms-and-conditions"
+                    style={{
+                      color: "#D7B38C",
+                      fontWeight: 500,
+                      textDecoration: "none",
+                      display: "flex",
+                      alignItems: "center",
+                    }}
+                    onMouseEnter={(e) => (e.target.style.color = "#ffffff")}
+                    onMouseLeave={(e) => (e.target.style.color = "#D7B38C")}
+                  >
+                    <i
+                      className="fa fa-file-text-o"
+                      style={{ marginRight: "5px" }}
+                    ></i>
+                    Terms & Conditions
+                  </a>
+
+                  <span style={{ color: "#D7B38C", opacity: 0.7 }}>|</span>
+
+                  {/* Privacy */}
+                  <a
+                    href="/privacy-policy"
+                    style={{
+                      color: "#D7B38C",
+                      fontWeight: 500,
+                      textDecoration: "none",
+                      display: "flex",
+                      alignItems: "center",
+                    }}
+                    onMouseEnter={(e) => (e.target.style.color = "#ffffff")}
+                    onMouseLeave={(e) => (e.target.style.color = "#D7B38C")}
+                  >
+                    <i
+                      className="fa fa-shield"
+                      style={{ marginRight: "5px" }}
+                    ></i>
+                    Privacy Policy
+                  </a>
+
+                  <span style={{ color: "#D7B38C", opacity: 0.7 }}>|</span>
+
+                  {/* Disclaimer */}
+                  <a
+                    href="/disclaimer"
+                    style={{
+                      color: "#D7B38C",
+                      fontWeight: 500,
+                      textDecoration: "none",
+                      display: "flex",
+                      alignItems: "center",
+                    }}
+                    onMouseEnter={(e) => (e.target.style.color = "#ffffff")}
+                    onMouseLeave={(e) => (e.target.style.color = "#D7B38C")}
+                  >
+                    <i
+                      className="fa fa-warning"
+                      style={{ marginRight: "5px" }}
+                    ></i>
+                    Disclaimer
+                  </a>
+                </div>
               </div>
             </div>
           </div>
