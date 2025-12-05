@@ -48,6 +48,7 @@ class Slider1 extends React.Component {
                 data-easeout="default"
                 data-masterspeed={300}
                 data-thumb={require("./../../images/main-slider/slider1/slide3.webp")}
+                data-alt={"Modern living and dining area designed by an expert interior designer in Delhi with stylish decor."}
                 data-rotate={0}
                 data-saveperformance="off"
                 data-title
@@ -66,7 +67,7 @@ class Slider1 extends React.Component {
                 {/* MAIN IMAGE */}
                 <img
                   src={require("./../../images/main-slider/slider1/slide3.webp")}
-                  alt=""
+                  alt="Modern living and dining area designed by an expert interior designer in Delhi with stylish decor."
                   data-bgcolor="#f8f8f8"
                   style={{}}
                   data-bgposition="center center"
@@ -299,6 +300,7 @@ class Slider1 extends React.Component {
                 data-easeout="default"
                 data-masterspeed={300}
                 data-thumb={require("./../../images/main-slider/slider1/slide1.webp")}
+                data-alt={"Modern interior showroom by Ang Indesign with marble walls, black chairs, and a creative ceiling."}
                 data-rotate={0}
                 data-saveperformance="off"
                 data-title
@@ -317,7 +319,7 @@ class Slider1 extends React.Component {
                 {/* MAIN IMAGE */}
                 <img
                   src={require("./../../images/main-slider/slider1/slide1.webp")}
-                  alt=""
+                  alt="Modern interior showroom by Ang Indesign with marble walls, black chairs, and a creative ceiling."
                   data-bgcolor="#f8f8f8"
                   style={{}}
                   data-bgposition="center center"
@@ -550,6 +552,7 @@ class Slider1 extends React.Component {
                 data-easeout="default"
                 data-masterspeed={300}
                 data-thumb={require("./../../images/main-slider/slider1/slide2.webp")}
+                data-alt={"Modern interior showroom with marble wall tiles, black chairs and creative ceiling design."}
                 data-rotate={0}
                 data-saveperformance="off"
                 data-title
@@ -568,7 +571,7 @@ class Slider1 extends React.Component {
                 {/* MAIN IMAGE */}
                 <img
                   src={require("./../../images/main-slider/slider1/slide2.webp")}
-                  alt=""
+                  alt="Modern interior showroom with marble wall tiles, black chairs and creative ceiling design."
                   data-bgcolor="#f8f8f8"
                   style={{}}
                   data-bgposition="center center"

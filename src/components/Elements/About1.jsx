@@ -15,7 +15,14 @@ import bgimg1 from "../../images/background/bg-4.png";
 import bgimg2 from "../../images/background/cross-line2.png";
 import aboutAb from "../../images/about-slider/1-ab.webp"; // for bottom image
 
-const images = [img1, img2, img3, img4, img5, img6];
+const images = [
+  { src: img1, alt: "Modern luxury salon interior with pink chairs and mirrors." },
+  { src: img2, alt: "Modern luxury bar interior with warm lighting and stylish seating." },
+  { src: img3, alt: "Modern restaurant interior with wooden furniture and indoor plants." },
+  { src: img4, alt: "Modern open office with clean desks, computers and bright ceiling lights." },
+  { src: img5, alt: "Modern office lounge with red chairs, grey sofa and stylish décor." },
+  { src: img6, alt: "Modern dining room with round table, yellow chairs and warm ceiling lights." },
+];
 
 class About1 extends React.Component {
   render() {
@@ -63,10 +70,11 @@ class About1 extends React.Component {
                     modern life
                   </h3>
                   <p>
-                    At <b>Angin Design</b>, we design interiors that are comfortable,
-                    useful, and well-balanced. As a reliable interior designer
-                    in Delhi, we focus on clean planning, smart layouts, and
-                    simple, timeless designs that fit in with your daily life.
+                    At <b>Angin Design</b>, we design interiors that are
+                    comfortable, useful, and well-balanced. As a reliable
+                    interior designer in Delhi, we focus on clean planning,
+                    smart layouts, and simple, timeless designs that fit in with
+                    your daily life.
                   </p>
                   <div className="text-left">
                     <NavLink
@@ -89,7 +97,7 @@ class About1 extends React.Component {
                       <div className="item" key={index}>
                         <div className="sx-img-effect zoom-slow">
                           <NavLink to="/about">
-                            <img src={item} alt="" />
+                            <img src={item.src} alt={item.alt} />
                           </NavLink>
                         </div>
                       </div>
@@ -97,7 +105,7 @@ class About1 extends React.Component {
                   </OwlCarousel>
 
                   <div className="about-home-before">
-                    <img src={aboutAb} alt="" />
+                    <img src={aboutAb} alt="Stylish living room interior with sofa, décor pieces and soft lighting." />
                   </div>
                 </div>
               </div>

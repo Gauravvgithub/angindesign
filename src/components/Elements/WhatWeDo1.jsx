@@ -37,7 +37,7 @@ class WhatWeDo1 extends React.Component {
                   <div className="number-block-one animate-in-to-top">
                     <img
                       src={require("./../../images/pic1.webp")}
-                      alt=""
+                      alt="Modern reception layout by ANG Indesign with desk, seating and plants."
                       style={{ borderRadius: "20px" }}
                     />
                     <div
@@ -55,7 +55,7 @@ class WhatWeDo1 extends React.Component {
                   <div className="number-block-one animate-in-to-top">
                     <img
                       src={require("./../../images/pic2.webp")}
-                      alt=""
+                      alt="Warm, modern living room sketch with cozy seating and natural light."
                       style={{ borderRadius: "20px" }}
                     />
                     <div
@@ -73,7 +73,7 @@ class WhatWeDo1 extends React.Component {
                   <div className="number-block-one animate-in-to-top">
                     <img
                       src={require("./../../images/pic3.webp")}
-                      alt=""
+                      alt="Modern cozy living room with warm lighting, wooden decor and an L-shaped sofa."
                       style={{ borderRadius: "20px" }}
                     />
                     <div
