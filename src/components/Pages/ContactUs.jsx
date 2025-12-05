@@ -70,30 +70,40 @@ class ContactUs extends React.Component {
     return (
       <>
         <Helmet>
-          <title>Contact ANG InDesign | Book Interior Consultation</title>
+          <title>Contact ANG Indesign | Book Interior Consultation</title>
           <meta
             name="description"
-            content="Contact ANG InDesign for expert residential and commercial interior design services in Delhi. Book your design consultation today."
+            content="Contact ANG Indesign for expert residential and commercial interior design services in Delhi. Book your design consultation today."
           />
           <meta
             name="keywords"
             content="interior designer contact, ang indesign contact, interior design consultation delhi"
           />
+          <meta name="author" content="ANG Indesign" />
+          <meta name="copyright" content="ANG Indesign" />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href="https://angindesign.com/contact-us" />
 
-          {/* <link rel="canonical" href="https://angindesign.vercel.app/contact-us"> */}
-
-          <meta property="og:title" content="Contact ANG InDesign" />
+          {/* <!-- Open Graph (OG) Tags -->  */}
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="ANG Indesign" />
+          <meta
+            property="og:url"
+            content="https://angindesign.com/contact-us"
+          />
+          <meta property="og:title" content="Contact ANG Indesign" />
           <meta
             property="og:description"
             content="Book a consultation with Delhi’s trusted interior designers."
           />
-          {/* <meta property="og:url" content="https://angindesign.vercel.app/contact-us"> */}
-
-          <meta name="twitter:title" content="Contact ANG InDesign" />
           <meta
-            name="twitter:description"
-            content="Book your interior design meeting with ANG InDesign."
+            property="og:image"
+            content="https://angindesign.com/assets/18-DK68FLtY.jpg"
           />
+          <meta property="og:image:type" content="image/jpeg" />
+          <meta property="og:image:width" content="1500" />
+          <meta property="og:image:height" content="1000" />
         </Helmet>
         <Header />
         <div className="page-content">

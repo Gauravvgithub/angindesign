@@ -425,11 +425,40 @@ const BlogGrid = () => {
   return (
     <>
       <Helmet>
-        <title>Interior Design Blogs & Tips | ANG InDesign Delhi</title>
+        <title>Interior Design Blogs & Tips | ANG Indesign Delhi</title>
         <meta
           name="description"
-          content="Read interior design tips, trends and inspiration from ANG InDesign."
+          content="Read interior design tips, trends and inspiration from ANG Indesign. Stay updated with modern styles for homes & commercial spaces in Delhi."
         />
+        <meta
+          name="keywords"
+          content="interior design blog delhi, decor tips, home interior blogs"
+        />
+        <meta name="author" content="ANG Indesign" />
+        <meta name="copyright" content="ANG Indesign" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://angindesign.com/blogs" />
+
+        {/* <!-- Open Graph (OG) Tags --> */}
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="ANG Indesign" />
+        <meta property="og:url" content="https://angindesign.com/blogs" />
+        <meta
+          property="og:title"
+          content="Interior Design Blog | ANG Indesign"
+        />
+        <meta
+          property="og:description"
+          content="Explore interior design trends and expert ideas for stylish spaces."
+        />
+        <meta
+          property="og:image"
+          content="https://angindesign.com/assets/12-DdxJ9BvP.jpg "
+        />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="5824" />
+        <meta property="og:image:height" content="3264" />
       </Helmet>
 
       <Header />
@@ -462,10 +491,7 @@ const BlogGrid = () => {
                       <div className="blog-post blog-grid date-style-2">
                         <div className="sx-post-media sx-img-effect img-reflection">
                           <NavLink to={`/blogs/${item.blog_title_url}`}>
-                            <img
-                              src={item.large_image}
-                              alt={item.blog_title}
-                            />
+                            <img src={item.large_image} alt={item.blog_title} />
                           </NavLink>
                         </div>
 

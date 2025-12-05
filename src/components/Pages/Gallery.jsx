@@ -30,36 +30,26 @@ class Gallery extends React.Component {
     return (
       <>
         <Helmet>
-          <title>Interior Design Gallery | ANG InDesign Delhi</title>
-          <meta
-            name="description"
-            content="Explore ANG InDesign’s interior design gallery featuring luxury home, office, restaurant and commercial spaces crafted with creativity and precision."
-          />
-          <meta
-            name="keywords"
-            content="interior gallery delhi, design gallery, interior portfolio"
-          />
+          <title>Interior Design Gallery | ANG Indesign Delhi</title>
+<meta name="description" content="Explore ANG Indesign interior design gallery featuring luxury home, office, restaurant and commercial spaces crafted with creativity and precision." />
+<meta name="keywords" content="interior gallery delhi, design gallery, interior portfolio" />
+<meta name="author" content="ANG Indesign" />
+<meta name="copyright" content="ANG Indesign" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://angindesign.com/gallery" />
 
-          {/* <link rel="canonical" href="https://angindesign.vercel.app/gallery" /> */}
+{/* <!-- Open Graph (OG) Tags --> */}
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="ANG Indesign" />
+<meta property="og:url" content="https://angindesign.com/gallery" />
+<meta property="og:title" content="Interior Design Gallery | ANG Indesign" />
+<meta property="og:description" content="Browse stunning interior designs created for homes and commercial spaces in Delhi." />
+<meta property="og:image" content="https://angindesign.com/assets/11-B0Joe8MG.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1920" />
+<meta property="og:image:height" content="753" />
 
-          <meta
-            property="og:title"
-            content="Interior Design Gallery | ANG InDesign"
-          />
-          <meta
-            property="og:description"
-            content="Browse stunning interior designs created for homes and commercial spaces in Delhi."
-          />
-          {/* <meta
-            property="og:url"
-            content="https://angindesign.vercel.app/gallery"
-          /> */}
-
-          <meta name="twitter:title" content="Interior Design Gallery" />
-          <meta
-            name="twitter:description"
-            content="Luxury interiors designed by ANG InDesign for homes and commercial spaces."
-          />
         </Helmet>
         <Header />
         <div className="page-content">

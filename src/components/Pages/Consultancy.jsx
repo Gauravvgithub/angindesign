@@ -20,7 +20,41 @@ class Consultancy extends React.Component {
             name="description"
             content="Professional interior design consultancy for planning, concepts, materials and complete project guidance. Expert help for all design needs."
           />
-          {/* <link rel="canonical" href="https://angindesign.vercel.app/services/consultancy"> */}
+          <meta
+            name="keywords"
+            content="interior design consultancy delhi, design consultation, interior planning services"
+          />
+          <meta name="author" content="ANG Indesign" />
+          <meta name="copyright" content="ANG Indesign" />
+          <meta name="robots" content="index, follow" />
+          <link
+            rel="canonical"
+            href="https://angindesign.com/services/consultancy"
+          />
+
+          {/* <!-- Open Graph (OG) Tags --> */}
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="ANG Indesign" />
+          <meta
+            property="og:url"
+            content="https://angindesign.com/services/consultancy"
+          />
+          <meta
+            property="og:title"
+            content="Interior Design Consultancy in Delhi | ANG InDesign"
+          />
+          <meta
+            property="og:description"
+            content="Professional interior design consultancy for planning, concepts, materials and complete project guidance. Expert help for all design needs."
+          />
+          <meta
+            property="og:image"
+            content="https://angindesign.com/assets/bg2-CQB1PS1V.webp"
+          />
+          <meta property="og:image:type" content="image/webp" />
+          <meta property="og:image:width" content="2000" />
+          <meta property="og:image:height" content="13333" />
         </Helmet>
         <Header />
         <div className="page-content">

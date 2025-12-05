@@ -3,6 +3,7 @@ import Header from "./../Common/Header";
 import Footer from "./../Common/Footer";
 import Banner from "./../Elements/Banner";
 import { NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 var bnrimg = require("./../../images/banner/17.jpg");
 
@@ -10,6 +11,44 @@ class Faq extends React.Component {
   render() {
     return (
       <>
+        <Helmet>
+          <title>Common Frequently Asked Questions | ANG Indesign</title>
+          <meta
+            name="description"
+            content="Get clear answers to common questions about interior design services in Delhi by ANG Indesign. Learn how we plan, design and upgrade your home or office."
+          />
+          <meta
+            name="keywords"
+            content="interior design faqs, common interior design questions, ang indesign faqs, ang indesign services questions"
+          />
+          <meta name="author" content="ANG Indesign" />
+          <meta name="copyright" content="ANG Indesign" />
+          <meta name="robots" content="index, follow" />
+
+          {/* <!-- Canonical URL --> */}
+          <link rel="canonical" href="https://angindesign.com/faq" />
+
+          {/* <!-- Open Graph (OG) Tags --> */}
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="ANG Indesign" />
+          <meta property="og:url" content="https://angindesign.com/faq" />
+          <meta
+            property="og:title"
+            content="Common Interior Design FAQs | ANG Indesign"
+          />
+          <meta
+            property="og:description"
+            content="Explore frequently asked questions about interior design services with helpful answers for your home or office with ANG Indesign."
+          />
+          <meta
+            property="og:image"
+            content="https://angindesign.com/assets/17-CqTj-hl6.jpg"
+          />
+          <meta property="og:image:type" content="image/jpeg" />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
+        </Helmet>
         <Header />
         <div className="page-content">
           <Banner
@@ -59,7 +98,9 @@ class Faq extends React.Component {
                       <p>
                         <ul className="list-angle-right anchor-line">
                           <li>
-                            <NavLink to="/contact-us">Schedule a Free Consultation</NavLink>
+                            <NavLink to="/contact-us">
+                              Schedule a Free Consultation
+                            </NavLink>
                           </li>
 
                           <li>

@@ -20,7 +20,41 @@ class modularWoodenWork extends React.Component {
             name="description"
             content="Premium modular kitchens, wardrobes and wooden interior work designed with perfection. Customised carpentry solutions in Delhi."
           />
-          {/* <link rel="canonical" href="https://angindesign.vercel.app/services/modular-wooden-work"> */}
+          <meta
+            name="keywords"
+            content="modular kitchen delhi, wooden work delhi, carpentry solutions, wardrobe design"
+          />
+          <meta name="author" content="ANG Indesign" />
+          <meta name="copyright" content="ANG Indesign" />
+          <meta name="robots" content="index, follow" />
+          <link
+            rel="canonical"
+            href="https://angindesign.com/services/modular-wooden-work"
+          />
+
+          {/* <!-- Open Graph (OG) Tags --> */}
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="ANG Indesign" />
+          <meta
+            property="og:url"
+            content="https://angindesign.com/services/modular-wooden-work"
+          />
+          <meta
+            property="og:title"
+            content="Modular Kitchen & Wooden Work in Delhi | ANG InDesign"
+          />
+          <meta
+            property="og:description"
+            content="Premium modular kitchens, wardrobes and wooden interior work designed with perfection. Customised carpentry solutions in Delhi."
+          />
+          <meta
+            property="og:image"
+            content="https://angindesign.com/assets/bg2-BU8XFb_S.webp"
+          />
+          <meta property="og:image:type" content="image/webp" />
+          <meta property="og:image:width" content="2000" />
+          <meta property="og:image:height" content="1334" />
         </Helmet>
         <Header />
         <div className="page-content">

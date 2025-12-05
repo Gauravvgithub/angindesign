@@ -20,7 +20,38 @@ class Salon extends React.Component {
             name="description"
             content="Build a stylish, modern and luxurious salon with professional interior designers in Delhi. Smart layouts and premium finishing."
           />
-          {/* <link rel="canonical" href="https://angindesign.vercel.app/services/salon"> */}
+          <meta
+            name="keywords"
+            content="salon interior designer delhi, beauty salon interiors, luxury salon design"
+          />
+          <meta name="author" content="ANG Indesign" />
+          <meta name="copyright" content="ANG Indesign" />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href="https://angindesign.com/services/salon" />
+
+          {/* <!-- Open Graph (OG) Tags --> */}
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="ANG Indesign" />
+          <meta
+            property="og:url"
+            content="https://angindesign.com/services/salon"
+          />
+          <meta
+            property="og:title"
+            content="Salon Interior Designer in Delhi | ANG InDesign"
+          />
+          <meta
+            property="og:description"
+            content="Build a stylish, modern and luxurious salon with professional interior designers in Delhi. Smart layouts and premium finishing."
+          />
+          <meta
+            property="og:image"
+            content="https://angindesign.com/assets/bg2-BPQuV2oZ.webp"
+          />
+          <meta property="og:image:type" content="image/webp" />
+          <meta property="og:image:width" content="2000" />
+          <meta property="og:image:height" content="1121" />
         </Helmet>
         <Header />
         <div className="page-content">

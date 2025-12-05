@@ -329,30 +329,37 @@ const ProjectGrid5 = () => {
   return (
     <>
       <Helmet>
-        <title>Interior Projects in Delhi | ANG InDesign</title>
+        <title>Interior Projects in Delhi | ANG Indesign</title>
         <meta
           name="description"
-          content="View residential, commercial and office interior projects designed by ANG InDesign. Creative layouts, modern themes and premium finishing."
+          content="View residential, commercial and office interior projects designed by ANG Indesign. Creative layouts, modern themes and premium finishing."
         />
         <meta
           name="keywords"
           content="interior projects delhi, completed interiors, ang indesign projects"
         />
+        <meta name="author" content="ANG Indesign" />
+        <meta name="copyright" content="ANG Indesign" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://angindesign.com/projects" />
 
-        {/* <link rel="canonical" href="https://angindesign.vercel.app/projects"/> */}
-
-        <meta property="og:title" content="Interior Projects | ANG InDesign" />
+        {/* <!-- Open Graph (OG) Tags --> */}
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="ANG Indesign" />
+        <meta property="og:url" content="https://angindesign.com/projects" />
+        <meta property="og:title" content="Interior Projects | ANG Indesign" />
         <meta
           property="og:description"
           content="Browse completed home and commercial interior design projects in Delhi."
         />
-        {/* <meta property="og:url" content="https://angindesign.vercel.app/projects"/> */}
-
-        <meta name="twitter:title" content="Interior Projects" />
         <meta
-          name="twitter:description"
-          content="Modern interior work done across Delhi by ANG InDesign."
+          property="og:image"
+          content="https://angindesign.com/assets/15-B_oZL0n2.jpg"
         />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="1920" />
+        <meta property="og:image:height" content="1080" />
       </Helmet>
 
       <Header />

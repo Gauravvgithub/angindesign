@@ -26,8 +26,37 @@ class Commercial extends React.Component {
             name="keywords"
             content="commercial interior designer delhi, retail design, showroom interior"
           />
+          <meta name="author" content="ANG Indesign" />
+          <meta name="copyright" content="ANG Indesign" />
+          <meta name="robots" content="index, follow" />
+          <link
+            rel="canonical"
+            href="https://angindesign.com/services/commercial"
+          />
 
-          {/* <link rel="canonical" href="https://angindesign.vercel.app/services/commercial"> */}
+          {/* <!-- Open Graph (OG) Tags --> */}
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="ANG Indesign" />
+          <meta
+            property="og:url"
+            content="https://angindesign.com/services/commercial"
+          />
+          <meta
+            property="og:title"
+            content="Top Commercial Interior Designer in Delhi | ANG InDesign"
+          />
+          <meta
+            property="og:description"
+            content="Transform your showroom or commercial space with Delhi’s top commercial interior designers. Modern, functional and brand-focused designs."
+          />
+          <meta
+            property="og:image"
+            content="https://angindesign.com/assets/bg2-DFYfH9lJ.webp"
+          />
+          <meta property="og:image:type" content="image/webp" />
+          <meta property="og:image:width" content="2000" />
+          <meta property="og:image:height" content="1335" />
         </Helmet>
         <Header />
         <div className="page-content">

@@ -20,7 +20,38 @@ class Bar extends React.Component {
             name="description"
             content="Create a premium bar or lounge ambience with Delhi’s expert interior designers. Unique themes, lighting and luxury design solutions."
           />
-          {/* <link rel="canonical" href="https://angindesign.vercel.app/services/bar"> */}
+          <meta
+            name="keywords"
+            content="bar interior designer delhi, lounge interior design, nightclub interiors"
+          />
+          <meta name="author" content="ANG Indesign" />
+          <meta name="copyright" content="ANG Indesign" />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href="https://angindesign.com/services/bar" />
+
+          {/* <!-- Open Graph (OG) Tags --> */}
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="ANG Indesign" />
+          <meta
+            property="og:url"
+            content="https://angindesign.com/services/bar"
+          />
+          <meta
+            property="og:title"
+            content="Bar & Lounge Interior Designer in Delhi | ANG InDesign"
+          />
+          <meta
+            property="og:description"
+            content="Create a premium bar or lounge ambience with Delhi’s expert interior designers. Unique themes, lighting and luxury design solutions."
+          />
+          <meta
+            property="og:image"
+            content="https://angindesign.com/assets/bg2-Wyr0oEC2.webp"
+          />
+          <meta property="og:image:type" content="image/webp" />
+          <meta property="og:image:width" content="2000" />
+          <meta property="og:image:height" content="1120" />
         </Helmet>
         <Header />
         <div className="page-content">

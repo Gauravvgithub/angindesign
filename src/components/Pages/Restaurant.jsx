@@ -20,7 +20,41 @@ class Restaurant extends React.Component {
             name="description"
             content="Design a stunning restaurant or café with Delhi’s expert interior designers. Ambience, layout and branding crafted to perfection."
           />
-          {/* <link rel="canonical" href="https://angindesign.vercel.app/services/restaurant"> */}
+          <meta
+            name="keywords"
+            content="restaurant interior designer delhi, cafe interior designer, hospitality interiors"
+          />
+          <meta name="author" content="ANG Indesign" />
+          <meta name="copyright" content="ANG Indesign" />
+          <meta name="robots" content="index, follow" />
+          <link
+            rel="canonical"
+            href="https://angindesign.com/services/restaurant"
+          />
+
+          {/* <!-- Open Graph (OG) Tags --> */}
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="ANG Indesign" />
+          <meta
+            property="og:url"
+            content="https://angindesign.com/services/restaurant"
+          />
+          <meta
+            property="og:title"
+            content="Restaurant Interior Designer in Delhi | ANG InDesign"
+          />
+          <meta
+            property="og:description"
+            content="Design a stunning restaurant or café with Delhi’s expert interior designers. Ambience, layout and branding crafted to perfection."
+          />
+          <meta
+            property="og:image"
+            content="https://angindesign.com/assets/bg2-DGEpSOSr.webp"
+          />
+          <meta property="og:image:type" content="image/webp" />
+          <meta property="og:image:width" content="2000" />
+          <meta property="og:image:height" content="1333" />
         </Helmet>
         <Header />
         <div className="page-content">

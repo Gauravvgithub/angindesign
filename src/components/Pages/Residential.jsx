@@ -26,26 +26,37 @@ class Residential extends React.Component {
             name="keywords"
             content="residential interior designer delhi, home interior, ang indesign"
           />
+          <meta name="author" content="ANG Indesign" />
+          <meta name="copyright" content="ANG Indesign" />
+          <meta name="robots" content="index, follow" />
+          <link
+            rel="canonical"
+            href="https://angindesign.com/services/residential"
+          />
 
-          {/* <link rel="canonical" href="https://angindesign.vercel.app/services/residential"> */}
-
+          {/* <!-- Open Graph (OG) Tags --> */}
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="ANG Indesign" />
+          <meta
+            property="og:url"
+            content="https://angindesign.com/services/residential"
+          />
           <meta
             property="og:title"
-            content="Residential Interior Designer in Delhi"
+            content="Best Residential Interior Designer in Delhi | ANG InDesign"
           />
           <meta
             property="og:description"
-            content="Modern, stylish and custom home interiors by ANG InDesign."
-          />
-
-          <meta
-            name="twitter:title"
-            content="Residential Interior Designer Delhi"
+            content="Looking for a residential interior designer in Delhi? ANG InDesign creates stylish, modern and customized home interiors for every lifestyle."
           />
           <meta
-            name="twitter:description"
-            content="Elegant home interiors crafted to your lifestyle."
+            property="og:image"
+            content="https://angindesign.com/assets/bg2-D-ZHnN6o.webp"
           />
+          <meta property="og:image:type" content="image/webp" />
+          <meta property="og:image:width" content="2000" />
+          <meta property="og:image:height" content="1125" />
         </Helmet>
         <Header />
         <div className="page-content">

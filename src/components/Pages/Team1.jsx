@@ -55,36 +55,40 @@ class Team1 extends React.Component {
     return (
       <>
         <Helmet>
-          <title>Meet Our Designers | ANG InDesign Delhi</title>
+          <title>Meet Our Designers | ANG Indesign Delhi</title>
           <meta
             name="description"
-            content="Meet the expert interior designers behind ANG InDesign. A team of creative professionals crafting elegant, functional and modern spaces."
+            content="Meet the expert interior designers behind ANG Indesign. A team of creative professionals crafting elegant, functional and modern spaces."
           />
           <meta
             name="keywords"
             content="interior design team delhi, ang indesign designers, creative designers delhi"
           />
+          <meta name="author" content="ANG Indesign" />
+          <meta name="copyright" content="ANG Indesign" />
+          <meta name="robots" content="index, follow" />
+          <link rel="canonical" href="https://angindesign.com/team-1" />
 
-          {/* <link rel="canonical" href="https://angindesign.vercel.app/team-1"> */}
-
+          {/* <!-- Open Graph (OG) Tags --> */}
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="ANG Indesign" />
+          <meta property="og:url" content="https://angindesign.com/team-1" />
           <meta
             property="og:title"
-            content="Meet Our Interior Design Team | ANG InDesign"
+            content="Meet Our Interior Design Team | ANG Indesign"
           />
           <meta
             property="og:description"
-            content="Get to know the creative minds designing modern & stylish interiors at ANG InDesign."
-          />
-          {/* <meta property="og:url" content="https://angindesign.vercel.app/team-1"> */}
-
-          <meta
-            name="twitter:title"
-            content="Interior Design Team – ANG InDesign"
+            content="Get to know the creative minds designing modern & stylish interiors at ANG Indesign."
           />
           <meta
-            name="twitter:description"
-            content="A passionate team transforming homes & businesses through design."
+            property="og:image"
+            content="https://angindesign.com/assets/16-DpjTFn8n.jpg"
           />
+          <meta property="og:image:type" content="image/jpeg" />
+          <meta property="og:image:width" content="1920" />
+          <meta property="og:image:height" content="1080" />
         </Helmet>
         <Header />
         <div className="page-content">

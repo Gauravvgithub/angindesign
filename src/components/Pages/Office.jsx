@@ -24,8 +24,37 @@ class Office extends React.Component {
             name="keywords"
             content="office interior designer delhi, corporate interiors"
           />
+          <meta name="author" content="ANG Indesign" />
+          <meta name="copyright" content="ANG Indesign" />
+          <meta name="robots" content="index, follow" />
+          <link
+            rel="canonical"
+            href="https://angindesign.com/services/office"
+          />
 
-          {/* <link rel="canonical" href="https://angindesign.vercel.app/services/office"> */}
+          {/* <!-- Open Graph (OG) Tags --> */}
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="website" />
+          <meta property="og:site_name" content="ANG Indesign" />
+          <meta
+            property="og:url"
+            content="https://angindesign.com/services/office"
+          />
+          <meta
+            property="og:title"
+            content="Modern Office Interior Designer in Delhi | ANG InDesign"
+          />
+          <meta
+            property="og:description"
+            content="Create a smart, productive and modern office with Delhi’s best office interior designers. Premium workspace design for all business sizes."
+          />
+          <meta
+            property="og:image"
+            content="https://angindesign.com/assets/bg2-DNhY7crO.webp"
+          />
+          <meta property="og:image:type" content="image/webp" />
+          <meta property="og:image:width" content="2000" />
+          <meta property="og:image:height" content="1414" />
         </Helmet>
         <Header />
         <div className="page-content">
