@@ -66,7 +66,8 @@ const services = [
     title: "MODULAR KITCHEN & WARDROBE",
     link: "/services/modular-wooden-work",
     icon: <FiLayers size={50} />,
-    description: "Best interior designer in delhi offer best kitchen designing...",
+    description:
+      "Best interior designer in delhi offer best kitchen designing...",
   },
 ];
 
