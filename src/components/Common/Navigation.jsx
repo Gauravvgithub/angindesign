@@ -29,7 +29,7 @@ const Navigation = () => {
       {/* <li><NavLink to="/our-history">Our History</NavLink></li> */}
       <li><NavLink to="/projects">Projects</NavLink></li>
       <li><NavLink to="/blogs">Blog</NavLink></li>
-      <li><NavLink to="/faq">FAQ</NavLink></li>
+      {/* <li><NavLink to="/services/consultancy">Consultant</NavLink></li>  */}
       <li><NavLink to="/contact-us">Contact Us</NavLink></li>
     </ul>
   );

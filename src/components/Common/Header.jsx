@@ -104,11 +104,11 @@ class Header extends React.Component {
                   <div className="extra-cell">
                     <div className="contact-slide-show">
                       <NavLink
-                        to={"/contact-us"}
+                        to={"/services/consultancy"}
                         className="get-in-touch-btn from-top"
                         // onClick={this.handleQuoteToggle}
                       >
-                        Get in touch
+                        Book your free consultancy
                       </NavLink>
                     </div>
                   </div>
@@ -162,7 +162,7 @@ class Header extends React.Component {
                               </div>
                               <div className="icon-content">
                                 <h6 className="m-t0">Address info</h6>
-                                <p>201 Liverpool Street, Suite 721, London</p>
+                                <p>Dwarka, Delhi</p>
                               </div>
                             </div>
                             <div className="full-social-bg">
