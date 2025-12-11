@@ -26,6 +26,7 @@ import ModularWoodenWork from "./Pages/Modular-wooden-work";
 import TermsConditions from "./Pages/TermsConditions";
 import Privacy from "./Pages/Privacy";
 import Disclaimer from "./Pages/Disclaimer";
+import Thankyou from "./Pages/Thankyou";
 
 class Components extends React.Component {
   render() {
@@ -63,6 +64,7 @@ class Components extends React.Component {
             <Route path="/terms-and-conditions" element={ <TermsConditions/>}/>
             <Route path="/privacy-policy" element={ <Privacy/>}/>
             <Route path="/disclaimer" element={ <Disclaimer/>}/>
+            <Route path="/thank-you" element={<Thankyou />} />
            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </div>
